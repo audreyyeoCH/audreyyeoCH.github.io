@@ -1,0 +1,44 @@
+---
+title: "Audrey Yeo"
+output : bookdown::gitbook
+site: bookdown::bookdown_site
+---
+
+just another human multi-hyphenate.
+
+<img src="images_lifesite/" style="width:50%">
+
+This is Pete.
+
+<img src="files/pete.jpg" style="width:50%">
+
+They are brothers!
+
+<img src="files/brother_kitties.jpg" style="width:50%">
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "About Audrey Yeo"
+---
+
+CV
+
+<img src="files/john.jpg" style="width:50%">
+
+This is Pete.
+
+<img src="files/pete.jpg" style="width:50%">
+
+They are brothers!
+
+<img src="files/brother_kitties.jpg" style="width:50%">
+
+<!--chapter:end:about.Rmd-->
+
+---
+title: "hyphenates"
+---
+
+<!--chapter:end:hyphenates.Rmd-->
+

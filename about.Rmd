@@ -2,14 +2,34 @@
 title: "About Audrey Yeo"
 ---
 
-CV
+<img src="images_lifesite/lutryview.jpg" style="width:50%">
 
-<img src="files/john.jpg" style="width:50%">
+Qualifications : 
 
-This is Pete.
+University of Zurich, Master of Science in Biostatistics plus
+University of Sydney, Master of Nursing
 
-<img src="files/pete.jpg" style="width:50%">
+Most memorable two years experience though :
 
-They are brothers!
+University of Geneva, Bachelor of Economics and Statistics
 
-<img src="files/brother_kitties.jpg" style="width:50%">
+Specialties : 
+
+Bayesian statistics, R, stats communication, data visualisation, likelihood inference, power and hypothesis testing, teaching
+
+Worked in :
+
+Clinical trials early and late drug development, Real World Data, university education
+
+Community events :
+
+in house stats community organisation and sometimes local R events
+
+Programming languages and capabilities :
+
+R, BASH, Git, MatLab but will do SQL, Python when needed
+
+R packages and Shiny apps : only when pushed
+
+
+

@@ -1,19 +1,12 @@
 ---
-title: "Audrey Yeo"
+title: "a short intro"
 output:
   html_document:
     toc_float: false
 ---
 
-just another human multi-hyphenate with an industry standard CV here
+just another human multi-hyphenate trying to standardise with industry, maybe
 
-<img src="images_lifesite/" style="width:50%">
+<img src="images_lifesite/rupistand.jpg" style="width:50%">
 
-This is Pete.
-
-<img src="files/pete.jpg" style="width:50%">
-
-They are brothers!
-
-<img src="files/brother_kitties.jpg" style="width:50%">
-
+contact : audreytyeo@gmail.com

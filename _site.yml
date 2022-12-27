@@ -1,6 +1,6 @@
-name: "my-website"
+name: "Audrey Yeo"
 navbar:
-  title: "My Website"
+  title: "Audrey Yeo"
   left:
     - text: "Home"
       href: index.html

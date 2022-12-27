@@ -1,13 +1,9 @@
 ---
-title: "Hyphenates"
+title: "hyphenates"
 ---
 
 <img src="images_lifesite/stmori.jpg" style="width:50%">
 
-other interests :
+Other interests : Ducking from troll requests
 
-Ducking from troll requests, sentiment analysis, music theory, history and literature of south east asia
-
-Pre or peri pandemic ? :
-
-Pre with peri pandemic wisdom
+Pre or peri pandemic ? Pre with peri pandemic wisdom

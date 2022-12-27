@@ -1,33 +1,20 @@
 ---
-title: "About Audrey Yeo"
+title: "about Audrey Yeo"
 ---
 
 <img src="images_lifesite/lutryview.jpg" style="width:50%">
 
-Qualifications : 
+Qualifications : University of Zurich, Master of Science in Biostatistics plus University of Sydney, Master of Nursing
 
-University of Zurich, Master of Science in Biostatistics plus
-University of Sydney, Master of Nursing
+Most memorable Swiss experience though : University of Geneva, Bachelor of Economics and Statistics
 
-Most memorable two years experience though :
+Specialties : Bayesian statistics, R, stats communication, data visualisation, likelihood inference, power and hypothesis testing, teaching
 
-University of Geneva, Bachelor of Economics and Statistics
+Some sub specialties : Clinical trials early and late drug development, Real World Data, Academia
 
-Specialties : 
+Community events : in house stats community organisation and sometimes local R events
 
-Bayesian statistics, R, stats communication, data visualisation, likelihood inference, power and hypothesis testing, teaching
-
-Worked in :
-
-Clinical trials early and late drug development, Real World Data, Academia
-
-Community events :
-
-in house stats community organisation and sometimes local R events
-
-Programming languages and capabilities :
-
-R, BASH, Git, MatLab but will do SQL, Python when needed
+Programming languages and capabilities : R, BASH, Git, MatLab but will do SQL, Python when needed
 
 R packages and Shiny apps : only when pushed
 

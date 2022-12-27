@@ -19,7 +19,7 @@ Bayesian statistics, R, stats communication, data visualisation, likelihood infe
 
 Worked in :
 
-Clinical trials early and late drug development, Real World Data, university education
+Clinical trials early and late drug development, Real World Data, Academia
 
 Community events :
 

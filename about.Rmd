@@ -4,19 +4,25 @@ title: "about Audrey Yeo"
 
 <img src="images_lifesite/lutryview.jpg" style="width:50%">
 
-Qualifications : University of Zurich, Master of Science in Biostatistics plus University of Sydney, Master of Nursing
+Qualifications : University of Zurich, Master of Science in Biostatistics, University of Sydney, Master of Nursing (yes, two Masters degrees but no PhD)
 
 Most memorable Swiss experience though : University of Geneva, Bachelor of Economics and Statistics
 
 Specialties : Bayesian statistics, R, stats communication, data visualisation, likelihood inference, power and hypothesis testing, teaching
 
-Some sub specialties : Clinical trials early and late drug development, Real World Data, Academia
+Some sub specialties : Clinical trials early and late drug development, Real World Data, University teaching of Statistics
+
+Disease area specialties : COVID, Oncology, Haematology, Neurology, Neurosurgery. Paediatrics: Cardiac, Intensive Care, Neonatology 
+
+House : Griffindor
 
 Community events : in house stats community organisation and sometimes local R events
 
 Programming languages and capabilities : R, BASH, Git, MatLab but will do SQL, Python when needed
 
 R packages and Shiny apps : only when pushed
+
+My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-injustry work 
 
 
 

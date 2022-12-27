@@ -5,8 +5,10 @@ output:
     toc_float: false
 ---
 
-just another human multi-hyphenate trying to standardise with industry, maybe
+just another human multi-hyphenate doing my best
 
 <img src="images_lifesite/rupistand.jpg" style="width:50%">
 
-contact : audreytyeo@gmail.com
+contact : via [linkedin](www.linkedin.com/in/audrey-yeo-8000)
+
+

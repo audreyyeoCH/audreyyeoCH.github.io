@@ -22,7 +22,7 @@ Programming languages and capabilities : R, BASH, Git, MatLab but will do SQL, P
 
 R packages and Shiny apps : only when pushed
 
-My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-injustry work 
+My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work 
 
 
 

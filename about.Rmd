@@ -1,10 +1,7 @@
 ---
 title: "about Audrey Yeo"
 ---
-
-<img src="images_lifesite/lutryview.jpg" style="width:50%">
-
-Qualifications : University of Zurich, Master of Science in Biostatistics, University of Sydney, Master of Nursing (yes, two Masters degrees but no PhD)
+Qualifications : University of Zurich, Master of Science in Biostatistics, University of Sydney, Master of Nursing 
 
 Most memorable Swiss experience though : University of Geneva, Bachelor of Economics and Statistics
 
@@ -23,6 +20,8 @@ Programming languages and capabilities : R, BASH, Git, MatLab but will do SQL, P
 R packages and Shiny apps : only when pushed
 
 My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work 
+
+<img src="images_lifesite/lutryview.jpg" style="width:50%">
 
 
 

@@ -4,6 +4,7 @@ output:
   html_document:
     toc_float: false
 ---
+<img src="images_lifesite/poem_flowers.jpg" style="width:50%">
 ***
 
 _These_ poems are like a revision of _dreams_

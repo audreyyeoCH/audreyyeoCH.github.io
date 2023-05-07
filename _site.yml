@@ -8,6 +8,8 @@ navbar:
       href: about.html
     - text: "Hyphenates"
       href: hyphenates.html
+    - text: "Poems"
+      href: Poems.html
 output : 
  html_document : 
     theme: cosmo

@@ -20,8 +20,13 @@ And I am trying to recover
 All the _feelings_ I wrote in red before
 
 ***
-
-## Diversity
+---
+layout: default
+title: "Diversity Candidate"
+nav_order: 1
+has_children: true
+---
+## Diversity Candidate
 
 
 I feel exposed

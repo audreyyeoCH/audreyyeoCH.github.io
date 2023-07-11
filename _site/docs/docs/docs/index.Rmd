@@ -5,7 +5,7 @@ output:
     toc_float: false
 ---
 
-Just another human multi-hyphenate doing my best.
+just another human multi-hyphenate doing my best.
 
 <img src="images_lifesite/rupistand.jpg" style="width:50%">
 

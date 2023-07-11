@@ -14,9 +14,9 @@ title: "about Audrey Yeo"
    (the summer by the lake and friends to fill your heart)
 
 ### some specialties and interests : 
- * Bayesian statistics
- * Statistical Engineering with R language
- * Stats communication, data visualisation
+ * Bayesian statistics, 
+ * Statistical Engineering with R language, 
+ * Stats communication, data visualisation, 
  * I like being a frequentist sometimes
  * Group sequential designs
 
@@ -51,26 +51,12 @@ S2214-109X(17)30263-2
 48(4):335-344. DOI: https://doi.org/10.1515/jpm-2020-0007
  * 2022 : A pocket guide to Bayesien decision gating - in house
  
-### some languages
-
- * Teochew 
- * French
-
-#### but only the swear words :
-
- * Cantonese
- * German
-
-### current coffee table readings :
-
- * Resmaa Menakam's _My Grandmother's Hands_
- * Laura Khaudari's _Lifting Heavy Things_
- * Rupi Kaur's _The Sun And Her Flowers_
-
 ### upcoming conference attendance
 
-  * useR! 2023 conference, Basel, Switzerland
-  * CEN 2023 conference, Basel, Switzerland
+  * Statisticians in the Pharmaceutical Industry, June 2023
+ 
+
+ 
  
 <img src="images_lifesite/zurich_study.jpg" style="width:100%">
 Pictured : Kunsthalle, Zürich 2023

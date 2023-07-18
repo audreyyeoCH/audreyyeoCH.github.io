@@ -13,18 +13,16 @@ title: "about Audrey Yeo"
  
    (the summer by the lake and friends to fill your heart)
 
-### some specialties and interests : 
+### some interests : 
  * Bayesian statistics
  * Statistical Engineering with R language
  * Stats communication, data visualisation
- * I like being a frequentist sometimes
- * Group sequential designs
 
-### some sub specialties : 
- * Clinical trials of early and late drug development
+### some experiences : 
+ * Clinical trials of early (fav) and late drug development
 
 ### disease area specialties : 
- (so many) COVID, Oncology, Haematology, Neurology, Neurosurgery. Paediatrics: Cardiac, Intensive Care, Neonatology 
+ * Haematology, Oncology
 
 ### community events : 
  * I co-organise, moderate, chair and present in in house stats community events
@@ -36,11 +34,9 @@ title: "about Audrey Yeo"
  * Coming soon
 
 ### examples of past work
-
  * My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work 
 
 ### some publications and presentations
-
  * 2017: Stenberg et al (2017) Financing transformative health systems towards
 achievement of the health Sustainable Development Goals:
 a model for projected resource needs in 67 low-income and
@@ -52,23 +48,15 @@ S2214-109X(17)30263-2
  * 2022 : A pocket guide to Bayesien decision gating - in house
  
 ### some languages
-
  * Teochew 
  * French
 
-#### but only the swear words :
-
- * Cantonese
- * German
-
 ### current coffee table readings :
-
  * Resmaa Menakam's _My Grandmother's Hands_
  * Laura Khaudari's _Lifting Heavy Things_
  * Rupi Kaur's _The Sun And Her Flowers_
 
 ### upcoming conference attendance
-
   * useR! 2023 conference, Basel, Switzerland
   * CEN 2023 conference, Basel, Switzerland
  

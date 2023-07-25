@@ -1,6 +1,8 @@
 ---
-title: "about Audrey Yeo"
+title: "about Audrey Yeo Te-ying"
 ---
+
+
 ### some qualifications : 
 
  * University of Zürich, Master of Science in Biostatistics 
@@ -31,7 +33,7 @@ title: "about Audrey Yeo"
  * R, BASH/UNIX scripting, Git, MatLab but will do SQL, Python when needed
 
 ### R packages and Shiny apps : 
- * Coming soon
+ * Currently working on open sourcing internal R package for early clinical trial development
 
 ### examples of past work
  * My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work 
@@ -56,7 +58,7 @@ S2214-109X(17)30263-2
  * Laura Khaudari's _Lifting Heavy Things_
  * Rupi Kaur's _The Sun And Her Flowers_
 
-### upcoming conference attendance
+### 2023 conference attendance
   * useR! 2023 conference, Basel, Switzerland
   * CEN 2023 conference, Basel, Switzerland
  

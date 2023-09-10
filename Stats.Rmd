@@ -80,7 +80,7 @@ We recognise this result with equation (3).
 ***
 
 
-###### *References : [Emmert-Strieb, F & Dehmer, M, Introduction to Survival Analysis in Practice]  [link](https://www.mdpi.com/530746)*
-###### *To the novels, and not the lecture* [link](https://audreyyeoch.github.io/Poems.html)
+###### *References : [Emmert-Strieb, F & Dehmer, M, Introduction to Survival Analysis in Practice](https://www.mdpi.com/530746)*
+###### [*To the novels, and not the lecture*](https://audreyyeoch.github.io/Poems.html)
 
 

@@ -10,7 +10,7 @@ output:
     
 ---
 
-#### <span style = "color: green;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
+#### <span style = "color: grey;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
 
 
 

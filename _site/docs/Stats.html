@@ -13,7 +13,7 @@
 
 <title>Stats</title>
 
-<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -275,8 +275,85 @@ $(document).ready(function () {
 </div>
 
 
-<p>Coming pretty soon.</p>
+<div
+id="a-mathematical-proof-of-s_at-s_bthr-the-proportional-hazards-assumption."
+class="section level4">
+<h4><span style="color: green;">A mathematical proof of <span
+class="math inline">\(S_{A}(t) = S_{B}(t)^{HR}\)</span>, the
+Proportional hazards assumption.</span></h4>
+<p>I provide an example assuming we are comparing the efficacy of two
+treatment groups:</p>
+<ul>
+<li><p>Treatment A, denoted as A, has survival curve <span
+class="math inline">\(S_{A}(t)\)</span></p></li>
+<li><p>Treatment B, denoted as B, has survival curve <span
+class="math inline">\(S_{B}(t)\)</span></p></li>
+</ul>
+<p>Other important notations include :</p>
+<ul>
+<li><p>Hazard <strong>rate</strong> <span
+class="math inline">\(h_{A}(t)\)</span> with dependancy to time <span
+class="math inline">\(t\)</span></p></li>
+<li><p>Hazard <strong>ratio</strong> <span
+class="math inline">\(HR\)</span></p></li>
+<li><p>multiplication “<span
+class="math inline">\({.}\)</span>”</p></li>
+</ul>
+<p>The proportional hazards assumption is such that the hazard functions
+for any individual is a fixed proportion of hazard to any other
+covariate.</p>
+<p>Since we are interested in proofing this equation (1) :</p>
+<p><span class="math display">\[
+S_{A}(t) = S_{B}(t)^{HR}
+\]</span> We denote the following as equation (2) : <span
+class="math display">\[
+exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR}
+\]</span></p>
+<p>We know the following, that the hazard function is the negative log
+of the Survival curve :</p>
+<p><span class="math display">\[
+h(t) = -logS(t)
+\]</span> Inversely, the exponential of the negative hazard function is
+the Survival curve : <span class="math display">\[
+S(t) = exp(-h(t))
+\]</span></p>
+<p>Therefore, rewriting (2) we obtain :</p>
+<p><span class="math display">\[
+\frac {exp^{(-H_{A}(t))}}  {exp^{(-H_{B}(t))}} = {HR}  = \frac {exp(log
+S(t))} {exp(log{S(t))}}
+\]</span> Which can be simplified to equation (3) :</p>
+<p><span class="math display">\[ exp^{-\int h_{A}(u) \space du -
+\space(-\int h_{B}(u) \space du) }  = \frac {exp^{(-\int h_{A}(u) \space
+du} } {exp^{-\int h_{B}(u) \space du  }} = HR \]</span></p>
+<p>which resembles the hazard function with covariates:</p>
+<p><span class="math display">\[
+h_{A}(t)
+= h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} =
+exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du) }
+\]</span> Where we fit a proportional hazards model :</p>
+<p><span class="math display">\[
+\frac {exp^{-log(S_{A}(t))}}  {exp^{-log(-S_{B}(t))}} = \frac {h_{A}(t)}
+{h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})}
+\]</span></p>
+<p>We recognise this result with equation (3).</p>
+</div>
+<div id="section" class="section level2">
+<h2></h2>
+<p>This concludes the proof.</p>
 <hr />
+<div
+id="references-emmert-strieb-f-dehmer-m-introduction-to-survival-analysis-in-practice-link"
+class="section level6">
+<h6><em>References : [Emmert-Strieb, F &amp; Dehmer, M, Introduction to
+Survival Analysis in Practice] <a
+href="https://www.mdpi.com/530746">link</a></em></h6>
+</div>
+<div id="dedicated-to-my-akung-and-ama-who-loved-numbers-link"
+class="section level6">
+<h6><em>Dedicated to my Akung and Ama, who loved numbers</em> <a
+href="https://audreyyeoch.github.io/Poems.html">link</a></h6>
+</div>
+</div>
 
 
 

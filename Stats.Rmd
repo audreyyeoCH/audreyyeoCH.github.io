@@ -9,146 +9,78 @@ output:
 
     
 ---
-_coming_soon_
-<!-- Last update: "`r Sys.Date()`" -->
 
-<!-- These notes in Statistics are for the visual thinker who finds comfort in formulas, or would like to. -->
-<!-- The following topics are covered in this page: -->
+#### <span style = "color: green;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
 
-<!-- ### 1. Hypothesis testing -->
-<!-- ### 2. Futility analysis in adaptive trial designs -->
 
-<!-- *** -->
 
-<!-- # ```{r, echo = FALSE, eval = TRUE, results='hide'} -->
-<!-- # library(ggplot2) -->
-<!-- # library(dplyr) -->
-<!-- # library(flextable) -->
-<!-- # ``` -->
+I provide an example assuming we are comparing the efficacy of two treatment groups:
 
+ + Treatment A, denoted as A, has survival curve $S_{A}(t)$
 
-<!-- ### 1. Hypothesis Testing is about Statistical evidence -->
+ + Treatment B, denoted as B, has survival curve $S_{B}(t)$
+ 
+Other important notations include :
 
-<!-- The general idea is that hypothesis testing is running a controlled experiment. An experiment is a real life simulation of action and measurable consequences. Its design measures the relationship between between intervention or non-intervention and results. -->
+ + Hazard **rate** $h_{A}(t)$ with dependancy to time $t$
+ 
+ + Hazard **ratio** $HR$
+ 
+ + multiplication "${.}$"
 
-<!-- There are three steps to hypothesis testing -->
+The proportional hazards assumption is such that the hazard functions for any individual is a fixed proportion of hazard to any other covariate. 
 
-<!-- ##### 1.1 making initial assumption/s -->
+Since we are interested in proofing this equation (1) :
 
-<!-- ##### 1.2 collecting the evidence -->
+$$
+S_{A}(t) = S_{B}(t)^{HR}
+$$
+We denote the following as equation (2) :
+$$
+exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR} 
+$$
 
-<!-- ##### 1.3 based on evidence, decide whether or not to reject the initial assumption -->
+We know the following, that the hazard function is the negative log of the Survival curve : 
 
+$$
+h(t) = -logS(t)
+$$
+Inversely, the exponential of the negative hazard function is the Survival curve :
+$$
+S(t) = exp(-h(t))
+$$
 
-<!-- ### Statistical evidence  -->
+Therefore, rewriting  (2) we obtain : 
 
-<!-- It is helpful to visualise the meaning of statistical evidence, and allocating meanings of alpha, beta, type I-II errors and power under the relevant curve. -->
+$$
+\frac {exp^{(-H_{A}(t))}}  {exp^{(-H_{B}(t))}} = {HR}  = \frac {exp(log S(t))} {exp(log{S(t))}}
+$$
+Which can be simplified to equation (3), **two minus signs in the former**: 
 
-<!-- Statistical evidence is an idea that positive or negative results of the experiment are aggregated in a hypothetical manner such that if the null hypothesis is true, and we accept the null hypothesis, we allow at most, "alpha percentage" of experiments, e.g. 5% or 5 out of 100 hypothetical experiments to have positive results, even though we did not see this result.  -->
+$$ exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du) }  = \frac {exp^{(-\int h_{A}(u) \space du} } {exp^{-\int h_{B}(u) \space du  }} = HR $$
 
-<!-- If the alternative hypothesis is true, statistical evidence looks like this : if the alternative hypothesis is true, and we accept the alternative hypothesis, we allow at most, "1- beta percentage" of experiments, e.g. 80% or 80 out of 100 hypothetical experiments to detect a positive result, even though we did not see this result. -->
+which resembles the hazard function with covariates:
 
-<!-- *** -->
+$$
+h_{A}(t)
+ = h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} = exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du) }
+$$
+Where we fit a proportional hazards model :
 
-<!-- #### Making initial assumptions -->
+$$
+\frac {exp^{-log(S_{A}(t))}}  {exp^{-log(-S_{B}(t))}} = \frac {h_{A}(t)} {h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})}
+$$
 
-<!-- We pre-set our assumptions or boundaries of when we would declare an effect significant or not. In the pharma industry, this can liken to the efficacy of a molecule (medicine).  -->
+We recognise this result with equation (3).
+  
 
-<!-- Where it is not efficacious and efficacious must be defined. An example could be the survival time between placebo and a novel drug group. The event of interest is death - Which group could live longer, or have a more delayed time to event ? Hopefully it would be due to the novel drug. We assume the survival trajectories will differ by a favourable hazard ratio (the hazard rate of the treatment group divided by the placebo group). We assume that the novel drug is that good, that it affords a hazard ratio of 0.5 at a pre-set median. Why median ? We chose a time point to compare two survival curves and it does not have to be a median, however, could be a meaningful time point for the disease or a time horizon meaninful in a competitive landscape. What is the meaning of a hazard ratio of 0.5 ? It means that the hazard rate of the novel drug group is half of that of the placebo or comparitor, making the ratio 0.5 (It could be interpreted as : The novel drug is assumed to have a hazard rate of 0.5 versus 1 in the placebo group). -->
+##
+*This concludes the proof.*
 
-<!-- The time point is only significant to the decision makers of the drug maker, but we will not define it in this example. -->
+***
 
-<!-- For example, for a time-to-event endpoint, at a meaningful time point our assumptions are as follows : -->
 
-<!--  $$H_{0} :  S_{placebo}(x) = S_{novel \space drug}(x) $$  -->
-<!--  $$H_{1} :  S_{placebo}(x) ≠ S_{novel \space drug}(x) $$ -->
-<!-- Notice the dis-equality sign gives us a clue that the hypothesis testing is two-sided. This is also an assumption, that the difference between both survival curves is that the hazard ratio is not the same.  -->
-
-<!--  Allowed type I error is 5% : -->
-
-<!--  $$\alpha = 0.05,  \space two \space sided$$ -->
-<!-- What is the type I error ? It is precisely defined by. You may remember this table : -->
-
-<!-- ```{r, echo = FALSE} -->
-<!-- data.frame( `DecisionvTruth`= c("Reject Ho", "Accept Ho"), -->
-<!--             `Ho_true` = c("alpha or type I error", "1-Beta or power (correct decision)"), -->
-<!--             `Ho_false` = c("1-alpha (correct decision)", "Beta or type II error")) -> dec -->
-
-<!-- flextable::flextable(dec) -->
-<!-- ``` -->
-
-<!-- Something that I feel textbooks skip is first introduce alpha and beta as rates of acceptable error rates when the null hypothesis is true or false, respectively. When an incorrect decision is taken given truth, alpha and beta respectively become quantitative description of the incorrect decision, or simply, error rates, as seen in Statistical evidence in section 2. -->
-
-<!-- #### 2. collecting evidence -->
-
-<!-- In the context of novel drug discovery, the protocol of how the experiment is performed which includes strict inclusion and exclusion criteria is how the evidence should be collected. In survival endpoints, this is the expected number of events. Experiments can halt earlier due to ethical and feasibility reasons. Experiments can also have interim analysis for efficacy or futility or both. The former will affect the cumulative alpha and the latter on cumulative beta spent for the mere action of looking at the unblinded data.  -->
-
-<!-- #### 3. after data is collected, make a final decision. -->
-
-<!-- Assuming no interim or interim analyses for efficacy, futility or both, a final decision is made after the number of events have been observed, or earlier if the experiment is halted for the afore mentioned reasons.  -->
-
-<!-- *** -->
-
-<!-- #### 2. On Futility Analysis in adaptive trials design, we will explore the following -->
-
-<!-- <!-- ### 1. Basic notations --> 
-
-<!-- <!-- ### 2. How to choose a futility boundary (conditional power) --> 
-
-<!-- <!-- ### 3. Trade offs --> 
-
-<!-- Let's assume we run a trial with any number of interim futility analysis. While keeping the same example as above, let's have a look at some notations. -->
-<!-- Z score being the converted score from hazards ratio to the normally distributed support of X.  -->
-
-<!-- We reject the null hypothesis when we observe the following : -->
-
-<!-- $$ P( |Z_{observed\space at \space IA}| > Z_{futility \space boundary \space} ) $$  -->
-<!-- We accept the null hypothesis otherwise.  -->
-
-
-<!-- ## The following are important definitions. -->
-
-<!-- The probability to stop at interim for futility is the probability to stop under $$H_0$$, that is : (is this the exit probability) -->
-
-<!-- $$ P_{H0} ( |Z_{observed\space at \space IA}| > Z_{futility \space boundary \space at \space IA} ) (1)$$ -->
-<!-- The probability to continue at interim for futility is the probability to continue under $$H_0$$, is 1- the equation above (1), that is, the probability to obtain an interim result that does not stop the trial e.g. when the $$Z$$ score does not cross the futility boundary and renders the trial promising enough to continue: -->
-
-<!-- $$ P_{H0} ( |Z_{observed\space at \space IA}| < Z_{futility \space boundary \space at \space IA} ) $$  -->
-<!-- The probability of false continue, or probability of having a negative trial at the end but not having stopped at the IA can be viewed from the perspective of the $$H_0$$. -->
-
-<!-- $$ P_{H_0} (\space |Z_{observed\space at \space IA}| > Z_{futility \space boundary \space at \space IA} \space ) $$  -->
-
-<!-- The probability of false stop, or probability of having a positive trial in the end but having stopped at the IA can be viewed from the perspective of the $$H_1$$: -->
-
-<!-- $$ P_{H_1} (\space |Z_{observed\space at \space IA}| < Z_{futility \space boundary \space at \space IA} \space) $$  -->
-
-<!-- The MDD (Minimal Detectable Difference) is defined as  -->
-
-<!-- $$ min( \space Z_{\space interim \space or \space final} \space Z_{stage} < Z_{boundary} \space) $$ -->
-
-<!-- The power at Interim (Conditional Power) and Overall power Final : -->
-
-<!-- Conditional Power : The probability that the final result will be positive given the data at interim at the planned final sample size. This probability is known as conditional power because it is conditional on the data obtained to that point. -->
-
-<!-- $$ P(\space Z_{observed\space at \space final} < Z_{futility \space boundary \space at \space interim \space or \space final} \space | \space H_{1} ) $$  -->
-
-<!-- Overall power: The overall power is the probability to have a positive study at the final analysis and continuation at the futility under $H1$. It is defined as: -->
-
-<!--  $$ -->
-<!-- P(|Z| > t, Z_{FA} > t_{FA}) -->
-<!-- $$ -->
-
-<!-- <!-- ##### References --> 
-
-
-
-
-
-
-
-
-
-
-
+###### *References : [Emmert-Strieb, F & Dehmer, M, Introduction to Survival Analysis in Practice]  [link](https://www.mdpi.com/530746)*
+###### *To the novels, and not the lecture* [link](https://audreyyeoch.github.io/Poems.html)
 
 

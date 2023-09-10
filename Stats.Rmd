@@ -12,7 +12,7 @@ output:
 
 #### <span style = "color: grey;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
 
-
+Under the Proportional hazards assumption, any ratios of hazard functions at any one time are constant.
 
 I provide an example assuming we are comparing the efficacy of two treatment groups:
 
@@ -23,6 +23,8 @@ I provide an example assuming we are comparing the efficacy of two treatment gro
 Other important notations include :
 
  + Hazard **rate** $h_{A}(t)$ with dependancy to time $t$
+ 
+ + Cumulative Hazard function $H_{A}(t)$, equivalent to $\int h_{A}(u) du$ 
  
  + Hazard **ratio** $HR$
  
@@ -40,30 +42,30 @@ $$
 exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR} 
 $$
 
-We know the following, that the hazard function is the negative log of the Survival curve : 
+We know the following, that the Cumulative hazard function is the negative log of the Survival function : 
 
 $$
-h(t) = -logS(t)
+H(t) = -logS(t)
 $$
-Inversely, the exponential of the negative hazard function is the Survival curve :
+The exponential of the negative Cumulative hazard function is the Survival function :
 $$
-S(t) = exp(-h(t))
+S(t) = exp(-H(t))
 $$
 
 Therefore, rewriting  (2) we obtain : 
 
 $$
-\frac {exp^{(-h_{A}(t))}}  {exp^{(-h_{B}(t))}} = {HR}  = \frac {exp(log S(t))} {exp(log{S(t))}}
+\frac {exp^{(-H_{A}(t))}}  {exp^{(-H_{B}(t))}} = {HR}  = \frac {exp(log S(t))} {exp(log{S(t))}}
 $$
 Which can be simplified to equation (3), **two minus signs in the former**: 
 
-$$ exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du) }  = \frac {exp^{-\int h_{A}(u) \space du} } {exp^{-\int h_{B}(u) \space du  }} = HR $$
+$$ exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space) }  = \frac {exp^{-\int h_{A}(u) \space du} } {exp^{-\int h_{B}(u) \space du  }} = HR $$
 
 which resembles the hazard function with covariates:
 
 $$
 h_{A}(t)
- = h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} = exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du) }
+ = h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} = exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space) }
 $$
 Where we fit a proportional hazards model :
 

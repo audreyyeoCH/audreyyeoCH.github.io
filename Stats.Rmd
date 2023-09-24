@@ -2,6 +2,7 @@
 title: "Stats"
 output:
   html_document:
+    toc : true
     toc_float: true
     #   collapsed: false
     #   smooth_scroll: true
@@ -9,7 +10,6 @@ output:
 
     
 ---
-
 #### <span style = "color: grey;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
 
 Under the Proportional hazards assumption, any ratios of hazard functions at any one time are constant.

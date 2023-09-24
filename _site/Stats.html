@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -220,6 +223,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +293,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -275,12 +351,16 @@ $(document).ready(function () {
 </div>
 
 
+<div id="ha" class="section level2">
+<h2>ha–</h2>
 <div
 id="a-mathematical-proof-of-s_at-s_bthr-the-proportional-hazards-assumption."
 class="section level4">
 <h4><span style="color: grey;">A mathematical proof of <span
 class="math inline">\(S_{A}(t) = S_{B}(t)^{HR}\)</span>, the
 Proportional hazards assumption.</span></h4>
+<p>Under the Proportional hazards assumption, any ratios of hazard
+functions at any one time are constant.</p>
 <p>I provide an example assuming we are comparing the efficacy of two
 treatment groups:</p>
 <ul>
@@ -290,10 +370,17 @@ class="math inline">\(S_{A}(t)\)</span></p></li>
 class="math inline">\(S_{B}(t)\)</span></p></li>
 </ul>
 <p>Other important notations include :</p>
+</div>
+</div>
+<div id="ja" class="section level2">
+<h2>ja –</h2>
 <ul>
 <li><p>Hazard <strong>rate</strong> <span
 class="math inline">\(h_{A}(t)\)</span> with dependancy to time <span
 class="math inline">\(t\)</span></p></li>
+<li><p>Cumulative Hazard function <span
+class="math inline">\(H_{A}(t)\)</span>, equivalent to <span
+class="math inline">\(\int h_{A}(u) du\)</span></p></li>
 <li><p>Hazard <strong>ratio</strong> <span
 class="math inline">\(HR\)</span></p></li>
 <li><p>multiplication “<span
@@ -309,28 +396,29 @@ S_{A}(t) = S_{B}(t)^{HR}
 class="math display">\[
 exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR}
 \]</span></p>
-<p>We know the following, that the hazard function is the negative log
-of the Survival curve :</p>
+<p>We know the following, that the Cumulative hazard function is the
+negative log of the Survival function :</p>
 <p><span class="math display">\[
-h(t) = -logS(t)
-\]</span> Inversely, the exponential of the negative hazard function is
-the Survival curve : <span class="math display">\[
-S(t) = exp(-h(t))
+H(t) = -logS(t)
+\]</span> The exponential of the negative Cumulative hazard function is
+the Survival function : <span class="math display">\[
+S(t) = exp(-H(t))
 \]</span></p>
 <p>Therefore, rewriting (2) we obtain :</p>
 <p><span class="math display">\[
-\frac {exp^{(-h_{A}(t))}}  {exp^{(-h_{B}(t))}} = {HR}  = \frac {exp(log
+\frac {exp^{(-H_{A}(t))}}  {exp^{(-H_{B}(t))}} = {HR}  = \frac {exp(log
 S(t))} {exp(log{S(t))}}
 \]</span> Which can be simplified to equation (3), <strong>two minus
 signs in the former</strong>:</p>
 <p><span class="math display">\[ exp^{-\int h_{A}(u) \space du -
-\space(-\int h_{B}(u) \space du) }  = \frac {exp^{-\int h_{A}(u) \space
-du} } {exp^{-\int h_{B}(u) \space du  }} = HR \]</span></p>
+\space(-\int h_{B}(u) \space du \space) }  = \frac {exp^{-\int h_{A}(u)
+\space du} } {exp^{-\int h_{B}(u) \space du  }} = HR \]</span></p>
 <p>which resembles the hazard function with covariates:</p>
 <p><span class="math display">\[
 h_{A}(t)
 = h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} =
-exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du) }
+exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
+}
 \]</span> Where we fit a proportional hazards model :</p>
 <p><span class="math display">\[
 \frac {exp^{-log(S_{A}(t))}}  {exp^{-log(-S_{B}(t))}} = \frac {h_{A}(t)}
@@ -358,6 +446,8 @@ novels, and not the lecture</em></a></h6>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -390,6 +480,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

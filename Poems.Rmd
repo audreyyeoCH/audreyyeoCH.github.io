@@ -2,6 +2,7 @@
 title: "Poems"
 output:
   html_document:
+    toc : true
     toc_float: true
 nav_order: 1
 has_children: true
@@ -24,6 +25,7 @@ And In poetry I build a home
 For orphaned feelings to find shelter
 
 ***
+
 ## Briefcase energies
 _Audrey Yeo_, Silhpost, Zürich (2023)
 
@@ -70,6 +72,7 @@ I, the sun, and he the flower:
 A proper briefcase might
 
 ***
+
 ## The ducks and Ama 
 _Audrey Yeo_, at the Rhine, Kleinbasel side, Switzerland (2021)
 
@@ -182,7 +185,7 @@ A tight rope for me to walk in good faith
 
 To pay things forward without knowing my steps ahead
 
-I liked that we met at the marketplace
+But I liked that we met at the marketplace
 
 And at my favourite route near Bankverein
 
@@ -203,7 +206,7 @@ I was music to your ears
 Till the night brought us home
 
 ***
-### The saboteur
+## The saboteur
 _Audrey Yeo_, Famille Yeo, Basel Stadt, 2023
 
 I think I am 
@@ -259,7 +262,6 @@ With what belongs to the world
 And what is within reach to me
 
 ***
-
 ## Sunshine for itself
 _Audrey Yeo_, Gotthelf, Basel Stadt (2023)
 
@@ -293,12 +295,11 @@ The fall is near,
 
 Their buds already burned
 
-What will sisters feast on next
+What will sisters scheme next
 
 If they have killed their competition ? 
 
 ***
-
 ## The Magic Green of the Rhine
 _Audrey Yeo_, at the Rhine near Burgweg, Kleinbasel, Switzerland (2021)
 

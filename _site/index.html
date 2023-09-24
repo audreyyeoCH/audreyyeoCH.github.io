@@ -11,12 +11,12 @@
 
 
 
-<title>Stats</title>
+<title>a short intro</title>
 
 <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,7 +30,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -269,96 +270,16 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Stats</h1>
+<h1 class="title toc-ignore">a short intro</h1>
 
 </div>
 
 
-<div
-id="a-mathematical-proof-of-s_at-s_bthr-the-proportional-hazards-assumption."
-class="section level4">
-<h4><span style="color: grey;">A mathematical proof of <span
-class="math inline">\(S_{A}(t) = S_{B}(t)^{HR}\)</span>, the
-Proportional hazards assumption.</span></h4>
-<p>Under the Proportional hazards assumption, any ratios of hazard
-functions at any one time are constant.</p>
-<p>I provide an example assuming we are comparing the efficacy of two
-treatment groups:</p>
-<ul>
-<li><p>Treatment A, denoted as A, has survival curve <span
-class="math inline">\(S_{A}(t)\)</span></p></li>
-<li><p>Treatment B, denoted as B, has survival curve <span
-class="math inline">\(S_{B}(t)\)</span></p></li>
-</ul>
-<p>Other important notations include :</p>
-<ul>
-<li><p>Hazard <strong>rate</strong> <span
-class="math inline">\(h_{A}(t)\)</span> with dependancy to time <span
-class="math inline">\(t\)</span></p></li>
-<li><p>Cumulative Hazard function <span
-class="math inline">\(H_{A}(t)\)</span>, equivalent to <span
-class="math inline">\(\int h_{A}(u) du\)</span></p></li>
-<li><p>Hazard <strong>ratio</strong> <span
-class="math inline">\(HR\)</span></p></li>
-<li><p>multiplication “<span
-class="math inline">\({.}\)</span>”</p></li>
-</ul>
-<p>The proportional hazards assumption is such that the hazard functions
-for any individual is a fixed proportion of hazard to any other
-covariate.</p>
-<p>Since we are interested in proofing this equation (1) :</p>
-<p><span class="math display">\[
-S_{A}(t) = S_{B}(t)^{HR}
-\]</span> We denote the following as equation (2) : <span
-class="math display">\[
-exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR}
-\]</span></p>
-<p>We know the following, that the Cumulative hazard function is the
-negative log of the Survival function :</p>
-<p><span class="math display">\[
-H(t) = -logS(t)
-\]</span> The exponential of the negative Cumulative hazard function is
-the Survival function : <span class="math display">\[
-S(t) = exp(-H(t))
-\]</span></p>
-<p>Therefore, rewriting (2) we obtain :</p>
-<p><span class="math display">\[
-\frac {exp^{(-H_{A}(t))}}  {exp^{(-H_{B}(t))}} = {HR}  = \frac {exp(log
-S(t))} {exp(log{S(t))}}
-\]</span> Which can be simplified to equation (3), <strong>two minus
-signs in the former</strong>:</p>
-<p><span class="math display">\[ exp^{-\int h_{A}(u) \space du -
-\space(-\int h_{B}(u) \space du \space) }  = \frac {exp^{-\int h_{A}(u)
-\space du} } {exp^{-\int h_{B}(u) \space du  }} = HR \]</span></p>
-<p>which resembles the hazard function with covariates:</p>
-<p><span class="math display">\[
-h_{A}(t)
-= h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} =
-exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
-}
-\]</span> Where we fit a proportional hazards model :</p>
-<p><span class="math display">\[
-\frac {exp^{-log(S_{A}(t))}}  {exp^{-log(-S_{B}(t))}} = \frac {h_{A}(t)}
-{h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})}
-\]</span></p>
-<p>We recognise this result with equation (3).</p>
-</div>
-<div id="section" class="section level2">
-<h2></h2>
-<p><em>This concludes the proof.</em></p>
-<hr />
-<div
-id="references-emmert-strieb-f-dehmer-m-introduction-to-survival-analysis-in-practice"
-class="section level6">
-<h6><em>References : <a
-href="https://www.mdpi.com/530746">Emmert-Strieb, F &amp; Dehmer, M,
-Introduction to Survival Analysis in Practice</a></em></h6>
-</div>
-<div id="to-the-novels-and-not-the-lecture" class="section level6">
-<h6><a href="https://audreyyeoch.github.io/Poems.html"><em>To the
-novels, and not the lecture</em></a></h6>
-</div>
-</div>
+<p>Just another human multi-hyphenate doing my best.</p>
+<p><img src="images_lifesite/rupistand.jpg" style="width:50%"></p>
+<p>contact : via <a
+href="www.linkedin.com/in/audrey-yeo-8000">linkedin</a></p>
+
 
 
 

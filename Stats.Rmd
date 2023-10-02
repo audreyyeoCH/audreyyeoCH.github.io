@@ -2,7 +2,7 @@
 title: "Stats"
 output:
   html_document:
-    toc : false
+    toc : true
     # toc_float: true
     #   collapsed: false
     #   smooth_scroll: true
@@ -10,11 +10,11 @@ output:
 
     
 ---
-#### <span style = "color: grey;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
+## <span style = "color: grey;">A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.</span> 
 
 Under the Proportional hazards assumption, any ratios of hazard functions at any one time are constant.
 
-I provide an example assuming we are comparing the efficacy of two treatment groups:
+I provide an example assuming we are comparing the efficacy of two treatment groups denoted by, $i$:
 
  + Treatment A, denoted as A, has survival curve $S_{A}(t)$
 
@@ -39,17 +39,21 @@ S_{A}(t) = S_{B}(t)^{HR}
 $$
 We denote the following as equation (2) :
 $$
-exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR} 
+exp^{(-H_{A}(t))} = exp^{(-H_{B}(t))} {.} \space {HR} 
 $$
 
 We know the following, that the Cumulative hazard function is the negative log of the Survival function : 
 
 $$
-H(t) = -logS(t)
+H_{i}(t) = -logS(t)
 $$
-The exponential of the negative Cumulative hazard function is the Survival function :
+We also know that the exponential of the negative Cumulative hazard function is the Survival function :
 $$
-S(t) = exp(-H(t))
+S(t) = exp(-H_{i}(t))
+$$
+Via the law of calculus, it is true that the integral of the hazard function (density) is the cumulative hazard function with respect to time, $H_{i}(t)$:
+$$
+H_{i}(t) = -\int h_{i}(u) \space du
 $$
 
 Therefore, rewriting  (2) we obtain : 
@@ -61,12 +65,18 @@ Which can be simplified to equation (3), **two minus signs in the former**:
 
 $$ exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space) }  = \frac {exp^{-\int h_{A}(u) \space du} } {exp^{-\int h_{B}(u) \space du  }} = HR $$
 
-which resembles the hazard function with covariates:
+which resembles the hazard function with covariates :
 
 $$
 h_{A}(t)
- = h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} = exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space) }
+ = h_{B}(t) \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} = exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space) }
 $$
+which is simplified to :
+
+$$
+\frac {h_{A}(t)} {h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})} = exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space) }
+$$
+
 Where we fit a proportional hazards model :
 
 $$
@@ -82,7 +92,6 @@ We recognise this result with equation (3).
 ***
 
 
-###### *References : [Emmert-Strieb, F & Dehmer, M, Introduction to Survival Analysis in Practice](https://www.mdpi.com/530746)*
-###### [*To the novels, and not the lecture*](https://audreyyeoch.github.io/Poems.html)
-
-
+###### References : 
++ [Emmert-Strieb, F & Dehmer, M, Introduction to Survival Analysis in Practice](https://www.mdpi.com/530746)
++ [Zabor, Emily : Survival Analysis in R](https://www.emilyzabor.com/tutorials/survival_analysis_in_r_tutorial.html)

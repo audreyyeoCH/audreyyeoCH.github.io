@@ -274,17 +274,28 @@ $(document).ready(function () {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a
+href="#a-mathematical-proof-of-s_at-s_bthr-the-proportional-hazards-assumption."
+id="toc-a-mathematical-proof-of-s_at-s_bthr-the-proportional-hazards-assumption."><span
+style="color: grey;">A mathematical proof of <span
+class="math inline">\(S_{A}(t) = S_{B}(t)^{HR}\)</span>, the
+Proportional hazards assumption.</span></a></li>
+<li><a href="#section" id="toc-section"></a></li>
+</ul>
+</div>
 
 <div
 id="a-mathematical-proof-of-s_at-s_bthr-the-proportional-hazards-assumption."
-class="section level4">
-<h4><span style="color: grey;">A mathematical proof of <span
+class="section level2">
+<h2><span style="color: grey;">A mathematical proof of <span
 class="math inline">\(S_{A}(t) = S_{B}(t)^{HR}\)</span>, the
-Proportional hazards assumption.</span></h4>
+Proportional hazards assumption.</span></h2>
 <p>Under the Proportional hazards assumption, any ratios of hazard
 functions at any one time are constant.</p>
 <p>I provide an example assuming we are comparing the efficacy of two
-treatment groups:</p>
+treatment groups denoted by, <span class="math inline">\(i\)</span>:</p>
 <ul>
 <li><p>Treatment A, denoted as A, has survival curve <span
 class="math inline">\(S_{A}(t)\)</span></p></li>
@@ -312,15 +323,20 @@ covariate.</p>
 S_{A}(t) = S_{B}(t)^{HR}
 \]</span> We denote the following as equation (2) : <span
 class="math display">\[
-exp^{(-h_{A}(t))} = exp^{(-h_{B}(t))} {.} \space {HR}
+exp^{(-H_{A}(t))} = exp^{(-H_{B}(t))} {.} \space {HR}
 \]</span></p>
 <p>We know the following, that the Cumulative hazard function is the
 negative log of the Survival function :</p>
 <p><span class="math display">\[
-H(t) = -logS(t)
-\]</span> The exponential of the negative Cumulative hazard function is
-the Survival function : <span class="math display">\[
-S(t) = exp(-H(t))
+H_{i}(t) = -logS(t)
+\]</span> We also know that the exponential of the negative Cumulative
+hazard function is the Survival function : <span class="math display">\[
+S(t) = exp(-H_{i}(t))
+\]</span> Via the law of calculus, it is true that the integral of the
+hazard function (density) is the cumulative hazard function with respect
+to time, <span class="math inline">\(H_{i}(t)\)</span>: <span
+class="math display">\[
+H_{i}(t) = -\int h_{i}(u) \space du
 \]</span></p>
 <p>Therefore, rewriting (2) we obtain :</p>
 <p><span class="math display">\[
@@ -331,13 +347,19 @@ signs in the former</strong>:</p>
 <p><span class="math display">\[ exp^{-\int h_{A}(u) \space du -
 \space(-\int h_{B}(u) \space du \space) }  = \frac {exp^{-\int h_{A}(u)
 \space du} } {exp^{-\int h_{B}(u) \space du  }} = HR \]</span></p>
-<p>which resembles the hazard function with covariates:</p>
+<p>which resembles the hazard function with covariates :</p>
 <p><span class="math display">\[
 h_{A}(t)
-= h_{B} \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} =
+= h_{B}(t) \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} =
 exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
 }
-\]</span> Where we fit a proportional hazards model :</p>
+\]</span> which is simplified to :</p>
+<p><span class="math display">\[
+\frac {h_{A}(t)} {h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})} =
+exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
+}
+\]</span></p>
+<p>Where we fit a proportional hazards model :</p>
 <p><span class="math display">\[
 \frac {exp^{-log(S_{A}(t))}}  {exp^{-log(-S_{B}(t))}} = \frac {h_{A}(t)}
 {h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})}
@@ -348,16 +370,15 @@ exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
 <h2></h2>
 <p><em>This concludes the proof.</em></p>
 <hr />
-<div
-id="references-emmert-strieb-f-dehmer-m-introduction-to-survival-analysis-in-practice"
-class="section level6">
-<h6><em>References : <a
-href="https://www.mdpi.com/530746">Emmert-Strieb, F &amp; Dehmer, M,
-Introduction to Survival Analysis in Practice</a></em></h6>
-</div>
-<div id="to-the-novels-and-not-the-lecture" class="section level6">
-<h6><a href="https://audreyyeoch.github.io/Poems.html"><em>To the
-novels, and not the lecture</em></a></h6>
+<div id="references" class="section level6">
+<h6>References :</h6>
+<ul>
+<li><a href="https://www.mdpi.com/530746">Emmert-Strieb, F &amp; Dehmer,
+M, Introduction to Survival Analysis in Practice</a></li>
+<li><a
+href="https://www.emilyzabor.com/tutorials/survival_analysis_in_r_tutorial.html">Zabor,
+Emily : Survival Analysis in R</a></li>
+</ul>
 </div>
 </div>
 

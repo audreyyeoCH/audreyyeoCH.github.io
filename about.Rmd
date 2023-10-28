@@ -21,8 +21,8 @@ title: "about Audrey Yeo Te-ying"
 
 ### some interests : 
  * Bayesian statistics
- * Statistical Engineering with R language
- * Stats communication, data visualisation
+ * Statistical Software Engineering with R language
+ * Mutiple Testing
 
 ### some experiences : 
  * Clinical trials of early (fav) and late drug development
@@ -62,9 +62,14 @@ S2214-109X(17)30263-2
  * Laura Khaudari's _Lifting Heavy Things_
  * Rupi Kaur's _Homebody_
 
-### 2023 conference attendance
-  * useR! 2023 conference, Basel, Switzerland
-  * CEN 2023 conference, Basel, Switzerland
+### 2023 conference attendance :
+ * useR!2023 conference, Basel, Switzerland
+ * CEN 2023 conference, Basel, Switzerland
+ * R/Pharma 2023, world
+ * Basel Epidemiology Seminar, Basel, Switzerland
+
+### 2024 happenings :
+  * useR!2024 conference, Salzburg, Austria
  
 <img src="images_lifesite/zurich_study.jpg" style="width:100%">
 Pictured : Kunsthalle, Zürich 2023

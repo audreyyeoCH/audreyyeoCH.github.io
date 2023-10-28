@@ -1,11 +1,23 @@
 ---
 title: "about Audrey Yeo Te-ying"
 ---
+
+***
+<img src="images_lifesite/relig_safe.jpg" style="width:50%">
+
+Pictured : Melbourne, 2021
+
+***
+
 ### some labels :
 
  * Statistical Software Engineer
  
  * Clinical Trial Statistician
+ 
+### some places of belonging :
+ 
+ * Wurundjeri Land & Naarm
 
 ### some qualifications : 
 
@@ -68,10 +80,8 @@ S2214-109X(17)30263-2
  * R/Pharma 2023, world
  * Basel Epidemiology Seminar, Basel, Switzerland
 
-### 2024 happenings :
+### 2024 conferences :
   * useR!2024 conference, Salzburg, Austria
- 
-<img src="images_lifesite/zurich_study.jpg" style="width:100%">
-Pictured : Kunsthalle, Zürich 2023
+
 
 

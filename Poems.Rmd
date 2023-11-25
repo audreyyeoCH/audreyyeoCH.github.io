@@ -3,7 +3,7 @@ title: "Poems"
 output:
   html_document:
     toc : true
-    # toc_float: true
+    toc_float: true
     # toc_depth : 2
 
 ---
@@ -24,6 +24,72 @@ My hands have moonshine before
 And in poetry I build a home
 
 For orphaned feelings to find lustre
+
+***
+## December heart
+_Audrey Yeo_, Polyterasse, Zürich (2023)
+
+That’s a December heart
+
+Under autumn leaves that grew old
+
+A funeral of dreams of once bright leaves
+
+As if they had to gently cradle my soft heart
+
+And fading spirit
+
+Put a sad song on and watch the ceremony of my grieving
+
+Leading down the isle
+
+As we watch dreams leave for many miles
+
+In the Zurich train
+
+In the Lausanne line
+
+Being in the middle
+
+Hours at a time
+
+The roof was my home
+
+The passengers my neighbours
+
+The families who harmed
+
+Because their emotions were disabled
+
+The in between being myself and what served them too easily
+
+The in between of what served me and also left completely
+
+I reached the altar
+
+And left my aspirations there
+
+Let the dapper flannel omit himself from his cruel dare
+
+Let the ghost out of my head and hands
+
+Let the facts trump hope
+
+For my new low
+
+Watched potentials undressed themselves
+
+And felt my knee weakened a last amount
+
+Found the author of my demise
+
+Told her I loved her and to count her sadness twice 
+
+Bought her new shoes and played her, her song
+
+Said she could stay at the altar
+
+Even after the darkness has gone
 
 ***
 ## The Push and Pull

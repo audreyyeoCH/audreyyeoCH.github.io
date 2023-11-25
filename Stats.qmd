@@ -6,7 +6,7 @@ editor: visual
 
 ## Survival Analysis
 
-## A mathematical proof of \$S\_{A}(t) = S\_{B}(t)\^{HR}\$, the Proportional hazards assumption. 
+## A mathematical proof of \$S\_{A}(t) = S\_{B}(t)\^{HR}\$, the Proportional hazards assumption.
 
 Under the Proportional hazards assumption, any ratios of hazard functions at any one time are constant.
 

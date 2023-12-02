@@ -9,7 +9,7 @@ output:
 ---
 <img src="images_lifesite/zurich_study.jpg" style="width:100%">
 \
-Pictured : Kunstmusuem, Zürich (2023)
+Pictured : Kunstmuseum, Zürich (2023)
 
 ***
 _Introduction_

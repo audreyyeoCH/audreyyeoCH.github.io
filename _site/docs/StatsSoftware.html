@@ -30,9 +30,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -325,9 +249,6 @@ div.tocify {
 </li>
 <li>
   <a href="about.html">About</a>
-</li>
-<li>
-  <a href="hyphenates.html">Hyphenates</a>
 </li>
 <li>
   <a href="Poems.html">Poems</a>
@@ -355,21 +276,45 @@ div.tocify {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#what-am-i-currently-working-on"
+id="toc-what-am-i-currently-working-on">What am I currently working on
+?</a></li>
+<li><a href="#what-is-a-statistical-software"
+id="toc-what-is-a-statistical-software">What is a statistical software
+?</a></li>
+<li><a href="#why-would-anybody-be-interested-in-statistical-software"
+id="toc-why-would-anybody-be-interested-in-statistical-software">Why
+would anybody be interested in statistical software ?</a></li>
+<li><a href="#what-is-state-of-art-engineering-for-statistical-software"
+id="toc-what-is-state-of-art-engineering-for-statistical-software">What
+is state of art engineering for statistical software ?</a></li>
+<li><a href="#what-are-examples-of-good-statistical-software"
+id="toc-what-are-examples-of-good-statistical-software">What are
+examples of good statistical software ?</a></li>
+<li><a href="#what-is-cran" id="toc-what-is-cran">What is CRAN
+?</a></li>
+</ul>
+</div>
 
 <p><em>I would like to acknowledge past and current colleagues who have
 enriched my knowledge of statistical software engineering</em></p>
+<p><img src="images_lifesite/almanater.jpg" style="width:100%"><br />
+Pictured : Alma Mater, University of Zürich, (2023)<br />
+</p>
 <div id="what-am-i-currently-working-on" class="section level2">
 <h2>What am I currently working on ?</h2>
 <p>I am working on an early drug development software for study
-statisticians and teams to calculate the probability of technical
-success within the Bayesian framework. The endpoint in question is an
-oncology endpoint. I am passionate about good engineering practices and
-am bringing this package, written in R, to the state of art. What I
-enjoy about statistical software development is to create mathematically
-elegant solutions such that the solution is fit for purpose, and the
-facility is computationally robust. It ties my interest in probability
-theory and computer science together, along with my personal value of
-creating accessible infrastructures.</p>
+statisticians and early development teams to calculate the probability
+of technical success within the Bayesian framework. The context of this
+work is in the oncology therapeutic area. I am passionate about good
+engineering practices and am bringing this package, written in R, to the
+state of art. What I enjoy about statistical software development is to
+create mathematically elegant solutions such that the solution is fit
+for purpose, and the facility is computationally robust. It ties my
+interest in probability theory and computer science together, along with
+my personal value of creating accessible infrastructures.</p>
 </div>
 <div id="what-is-a-statistical-software" class="section level2">
 <h2>What is a statistical software ?</h2>
@@ -389,8 +334,8 @@ question and good scientific practices.</p>
 <div id="what-is-state-of-art-engineering-for-statistical-software"
 class="section level2">
 <h2>What is state of art engineering for statistical software ?</h2>
-<p>Mary Shaw, (2002) : “Acceptance of their [analysis] results relies on
-the process of obtaining the results as well as analysis of the results
+<p>Mary Shaw, (2002) : “Acceptance of theirresults relies on the process
+of obtaining the results as well as analysis of the results
 themselves.”</p>
 <p>A good software tends to the principles of good scientific practice
 and good engineering practices. This is not without a rigorous practice
@@ -413,7 +358,10 @@ are over 20’000 packages on CRAN.</p>
 <p>Good examples are :</p>
 <ul>
 <li><a
-href="https://cran.r-project.org/web/packages/mmrm/index.html">mmrm</a></li>
+href="https://cran.r-project.org/web/packages/mmrm/index.html">mmrm :
+Mixed Models for Repeated Measures</a></li>
+<li><a href="https://github.com/roche/crmPack">crmPack : Model-Based
+Dose Escalation Designs in R with crmPack</a></li>
 </ul>
 </div>
 <div id="what-is-cran" class="section level2">
@@ -434,6 +382,10 @@ vol. 4, no. 1, pp. 1-7.</a></p>
 Kelkhoff D, Kunzmann K, Lang B, Li L, Stock C, Wang Y, James D, Sidi J,
 Leibovitz D, Sjoberg D (2023). mmrm: Mixed Models for Repeated Measures.
 R package version 0.3.6,</a>.</p>
+<p><a href="https://github.com/roche/crmPack">Sabanés Bové D, Yeung WY,
+Palermo G, Jaki T (2019). “Model-Based Dose Escalation Designs in R with
+crmPack.” Journal of Statistical Software, 89(10), 1–22.
+doi:10.18637/jss.v089.i10.</a></p>
 <p>Got feedback ? Email me <a
 href="mailto:comptesaudrey@gmail.com">here</a></p>
 </div>
@@ -441,8 +393,6 @@ href="mailto:comptesaudrey@gmail.com">here</a></p>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -475,35 +425,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

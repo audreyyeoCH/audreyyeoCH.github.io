@@ -3,10 +3,9 @@ title: "about Audrey Yeo Te-ying"
 ---
 
 ***
-<img src="images_lifesite/backerei.jpeg" style="width:100%">
+<img src="images_lifesite/backerei.jpeg" style="width:80%">
 \
 \
-Pictured : Die Backerei, Innsbruck, Austria 
 
 ***
 

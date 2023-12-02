@@ -2,21 +2,25 @@
 title: "hyphenates"
 ---
 
-<!-- <img src="images_lifesite/bouquet_coffee.jpg" style="width:50%"> -->
+<!-- <img src="images_lifesite/.jpg" style="width:50%"> -->
 
 Other interests in order of preference : 
 
-- humans with courage 
-- long German words that make me feel seen, like "Luftschloss"
+<img src="images_lifesite/youtried.jpg" style="width:100%">
+\
+- Meeting humans with courage
+- Swimming (Butterfly and Freestyle)
+- Long German words that make me feel seen, like "Luftschloss"
 - Official speeches in [dialects](https://www.youtube.com/watch?v=EHsTXFSZI34)
 - Aussie [anthems](https://www.youtube.com/watch?v=qLxBsd8O-no)
-- swimming pools around the world 
-- forests with proper running tracks 
+- Swimming in lakes
+- Running in athletic tracks in forests
+- Running in high altitude
 - a covid-safe Taylor Swift singing party
 \
 \
-<img src="images_lifesite/aussie_posters.jpg" style="width:100%">
+
 \
 
-Pictured : A street poster in Melbourne, 2021
+<!-- Pictured : A street poster in Melbourne, 2021 -->
 

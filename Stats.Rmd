@@ -9,6 +9,12 @@ output:
     # toc_depth: 2
 
 ---
+
+<img src="images_lifesite/princespark_melb.jpg" style="width:70%">
+\
+Pictured : Princess Park, Melbourne (2023)
+
+
 A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.
 
 Under the Proportional hazards assumption, any ratios of hazard functions at any one time are constant.

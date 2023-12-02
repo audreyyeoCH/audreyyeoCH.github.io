@@ -6,8 +6,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Hyphenates"
-      href: hyphenates.html
+    # - text: "Hyphenates"
+    #   href: hyphenates.html
     - text: "Poems"
       href: Poems.html
     - text: "Biostats notes"

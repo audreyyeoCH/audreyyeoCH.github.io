@@ -3,18 +3,23 @@ title: "Statistical Software"
 output: 
   html_document:
     toc : true
-    toc_float : true
+    # toc_float : true
 date: "2023-12-02"
 ---
 
 _I would like to acknowledge past and current colleagues who have enriched my knowledge of 
 statistical software engineering_
 
+<img src="images_lifesite/almanater.jpg" style="width:100%">
+\
+Pictured : Alma Mater, University of Zürich, (2023)
+\
+
 ## What am I currently working on ?
 
-I am working on an early drug development software for study statisticians and teams to calculate
-the probability of technical success within the Bayesian framework. The endpoint in question
-is an oncology endpoint. I am passionate about good engineering practices and am bringing this
+I am working on an early drug development software for study statisticians and early development teams to calculate the probability of technical success within the Bayesian framework. 
+The context of this work is in the oncology therapeutic area. 
+I am passionate about good engineering practices and am bringing this
 package, written in R, to the state of art. What I enjoy about statistical software development is 
 to create mathematically elegant solutions such that the solution is fit for purpose, 
 and the facility is computationally robust. It ties my interest in probability theory and computer science together, along with my personal value of creating accessible infrastructures.
@@ -33,7 +38,7 @@ and reproducibly, both can attend to the scientific question and good scientific
 
 ## What is state of art engineering for statistical software ?
 
-Mary Shaw, (2002) : "Acceptance of their [analysis] results relies on the process of obtaining the results as well as analysis of the results themselves."
+Mary Shaw, (2002) : "Acceptance of theirresults relies on the process of obtaining the results as well as analysis of the results themselves."
 
 A good software tends to the principles of good scientific practice and good engineering practices.
 This is not without a rigorous practice of testing code, reviewing code, writing clear 
@@ -50,7 +55,8 @@ Statistical software that have been widely accepted are generally published in [
 
 Good examples are :
 
- * [mmrm](https://cran.r-project.org/web/packages/mmrm/index.html)
+ * [mmrm : Mixed Models for Repeated Measures](https://cran.r-project.org/web/packages/mmrm/index.html)
+ * [crmPack : Model-Based Dose Escalation Designs in R with crmPack](https://github.com/roche/crmPack)
 
 ## What is CRAN ?
 CRAN hosts a central hub for information about R installation, R packages and documentation.
@@ -63,5 +69,7 @@ References :
 [Shaw M (2002) _What makes good research in software engineering?_ International Journal of Software Tools for Technology Transfer, 2002, vol. 4, no. 1, pp. 1-7.](https://www.cs.cmu.edu/~Compose/ftp/shaw-fin-etaps.pdf)
 
 [Sabanes Bove D, Dedic J, Kelkhoff D, Kunzmann K, Lang B, Li L, Stock C, Wang Y, James D, Sidi J, Leibovitz D, Sjoberg D (2023). mmrm: Mixed Models for Repeated Measures. R package version 0.3.6,](https://openpharma.github.io/mmrm/).
+
+[Sabanés Bové D, Yeung WY, Palermo G, Jaki T (2019). “Model-Based Dose Escalation Designs in R with crmPack.” Journal of Statistical Software, 89(10), 1–22. doi:10.18637/jss.v089.i10.](https://github.com/roche/crmPack)
 
 Got feedback ? Email me [here](mailto:comptesaudrey@gmail.com)

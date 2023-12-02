@@ -3,13 +3,14 @@ title: "about Audrey Yeo Te-ying"
 ---
 
 ***
-<img src="images_lifesite/relig_safe.jpg" style="width:50%">
-
-Pictured : Melbourne, 2021
+<img src="images_lifesite/backerei.jpeg" style="width:50%">
+\
+\
+Pictured : Die Backerei, Innsbruck, Austria 
 
 ***
 
-### some labels :
+### some labels
 
  * Statistical Software Engineer
  
@@ -25,6 +26,8 @@ Pictured : Melbourne, 2021
  
  * University of Sydney, Master of Nursing 
 
+   (but I am a proud Victorian)
+
 ### most memorable Swiss uni though : 
  
  * University of Geneva, Bachelor of Economics and Statistics 
@@ -34,10 +37,10 @@ Pictured : Melbourne, 2021
 ### some interests : 
  * Bayesian statistics
  * Statistical Software Engineering with R language
- * Mutiple Testing
+ * Multiple Testing
 
 ### some experiences : 
- * Clinical trials of early (fav) and late drug development
+ * Clinical trials of early (favourite) and late drug development
 
 ### disease area specialties : 
  * Haematology, Oncology
@@ -55,12 +58,6 @@ Pictured : Melbourne, 2021
  * My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work 
 
 ### some publications and presentations
- * 2017: Stenberg et al (2017) Financing transformative health systems towards
-achievement of the health Sustainable Development Goals:
-a model for projected resource needs in 67 low-income and
-middle-income countries. 
-DOI : http://dx.doi.org/10.1016/
-S2214-109X(17)30263-2
  * 2020: Kimmich, Nina; Yeo Te-ying, Audrey; Zimmermann, Roland; Furrer, Eva (2020). How do sustained birth tears after vaginal birth affect birth tear patterns in a subsequent birth? Journal of Perinatal Medicine,
 48(4):335-344. DOI: https://doi.org/10.1515/jpm-2020-0007
  * 2022 : A pocket guide to Bayesien decision gating - in house
@@ -68,20 +65,21 @@ S2214-109X(17)30263-2
 ### some languages
  * [Teochew](https://www.youtube.com/watch?v=qzitsYcwGjA)
  * French
+ * German
+ * Mandarin
 
 ### current coffee table readings :
  * Resmaa Menakam's _My Grandmother's Hands_
  * Laura Khaudari's _Lifting Heavy Things_
  * Rupi Kaur's _Homebody_
 
-### 2023 conference attendance :
+### 2023 conferences :
  * useR!2023 conference, Basel, Switzerland
  * CEN 2023 conference, Basel, Switzerland
  * R/Pharma 2023, world
  * Basel Epidemiology Seminar, Basel, Switzerland
 
-### 2024 conferences :
-  * useR!2024 conference, Salzburg, Austria
-
-
+### 2024 conferences and presentations :
+  * PSI 2024, Amsterdam, Netherlands, TBA
+  * useR!2024 conference, Salzburg, Austria, TBA
 

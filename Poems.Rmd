@@ -3,12 +3,12 @@ title: "Poems"
 output:
   html_document:
     toc : true
-    # ßtoc_float: true
+    toc_float: true
     # toc_depth : 2
 
 ---
-***
 
+***
 _Introduction_
 
 
@@ -27,6 +27,7 @@ And in poetry I build a home
 For orphaned feelings to find lustre
 
 ***
+
 ## December heart
 _Audrey Yeo_, Polyterasse, Zürich (2023)
 

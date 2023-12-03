@@ -2,7 +2,7 @@
 title: "a short intro"
 output:
   html_document:
-    toc_float: false
+    # toc_float: false
 ---
 
 Just another human multi-hyphenate doing my best.

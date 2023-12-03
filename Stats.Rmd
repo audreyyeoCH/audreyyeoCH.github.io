@@ -10,9 +10,9 @@ output:
 
 ---
 
-<img src="images_lifesite/princespark_melb.jpg" style="width:70%">
+<img src="images_lifesite/stmori.jpg" style="width:100%">
 \
-Pictured : Princess Park, Melbourne (2023)
+Pictured : St Moritz, Switzerland (2022)
 
 
 A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.

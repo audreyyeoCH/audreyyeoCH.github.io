@@ -1,5 +1,7 @@
 ---
-title: "about Audrey Yeo Te-ying"
+title: "about Audrey Yeo"
+output: 
+  html_document:
 ---
 
 ***

@@ -1,3 +1,4 @@
 baseURL: http://audreyyeoCH.github.io
 languageCode: en-us
 title: Audrey's website
+remote_theme: "mmistakes/so-simple-theme@3.2.0"

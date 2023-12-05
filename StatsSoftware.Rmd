@@ -17,7 +17,7 @@ Pictured : Alma Mater, University of Zürich, (2023)
 
 ## What am I currently working on ?
 
-I am working on an early drug development software for study statisticians and early development teams to calculate the probability of technical success within the Bayesian framework. 
+I am working on an early drug development software for study statisticians and early development teams to evaluate probability of success within the Bayesian framework. 
 The context of this work is in the oncology therapeutic area. 
 I am passionate about good engineering practices and am bringing this
 package, written in R, to the state of art. What I enjoy about statistical software development is 

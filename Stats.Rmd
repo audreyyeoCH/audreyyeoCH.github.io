@@ -9,6 +9,8 @@ output:
     # toc_depth: 2
 
 ---
+> I am inspired by good teachers, and I would like to acknowledge them.
+
 
 <img src="images_lifesite/stmori.jpg" style="width:100%">
 \

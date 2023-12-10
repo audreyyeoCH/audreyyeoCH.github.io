@@ -11,7 +11,7 @@
 
 
 
-<title>a short intro</title>
+<title>Biostats notes</title>
 
 <script src="site_libs/header-attrs-2.25.1/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -272,15 +272,106 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">a short intro</h1>
+<h1 class="title toc-ignore">Biostats notes</h1>
 
 </div>
 
 
-<p>Just another human multi-hyphenate doing my best.</p>
-<p><img src="images_lifesite/TheInn2.jpg" style="width:100%"></p>
-<p>contact : via <a
-href="www.linkedin.com/in/audrey-yeo-8000">linkedin</a></p>
+<blockquote>
+<p>I am inspired by good teachers, and I would like to acknowledge
+them.</p>
+</blockquote>
+<p><img src="images_lifesite/stmori.jpg" style="width:100%"><br />
+Pictured : St Moritz, Switzerland (2022)</p>
+<p>A mathematical proof of <span class="math inline">\(S_{A}(t) =
+S_{B}(t)^{HR}\)</span>, the Proportional hazards assumption.</p>
+<p>Under the Proportional hazards assumption, any ratios of hazard
+functions at any one time are constant.</p>
+<p>I provide an example assuming we are comparing the efficacy of two
+treatment groups denoted by, <span class="math inline">\(i\)</span>:</p>
+<ul>
+<li><p>Treatment A, denoted as A, has survival curve <span
+class="math inline">\(S_{A}(t)\)</span></p></li>
+<li><p>Treatment B, denoted as B, has survival curve <span
+class="math inline">\(S_{B}(t)\)</span></p></li>
+</ul>
+<p>Other important notations include :</p>
+<ul>
+<li><p>Hazard <strong>rate</strong> <span
+class="math inline">\(h_{A}(t)\)</span> with dependancy to time <span
+class="math inline">\(t\)</span></p></li>
+<li><p>Cumulative Hazard function <span
+class="math inline">\(H_{A}(t)\)</span>, equivalent to <span
+class="math inline">\(\int h_{A}(u) du\)</span></p></li>
+<li><p>Hazard <strong>ratio</strong> <span
+class="math inline">\(HR\)</span></p></li>
+<li><p>multiplication “<span
+class="math inline">\({.}\)</span>”</p></li>
+</ul>
+<p>The proportional hazards assumption is such that the hazard functions
+for any individual is a fixed proportion of hazard to any other
+covariate.</p>
+<p>Since we are interested in proofing this equation (1) :</p>
+<p><span class="math display">\[
+S_{A}(t) = S_{B}(t)^{HR}
+\]</span> We denote the following as equation (2) : <span
+class="math display">\[
+exp^{(-H_{A}(t))} = exp^{(-H_{B}(t))} {.} \space {HR}
+\]</span></p>
+<p>We know the following, that the Cumulative hazard function is the
+negative log of the Survival function :</p>
+<p><span class="math display">\[
+H_{i}(t) = -logS(t)
+\]</span> We also know that the exponential of the negative Cumulative
+hazard function is the Survival function : <span class="math display">\[
+S(t) = exp(-H_{i}(t))
+\]</span> Via the law of calculus, it is true that the integral of the
+hazard function (density) is the cumulative hazard function with respect
+to time, <span class="math inline">\(H_{i}(t)\)</span>: <span
+class="math display">\[
+H_{i}(t) = -\int h_{i}(u) \space du
+\]</span></p>
+<p>Therefore, rewriting (2) we obtain :</p>
+<p><span class="math display">\[
+\frac {exp^{(-H_{A}(t))}}  {exp^{(-H_{B}(t))}} = {HR}  = \frac {exp(log
+S(t))} {exp(log{S(t))}}
+\]</span> Which can be simplified to equation (3), <strong>two minus
+signs in the former</strong>:</p>
+<p><span class="math display">\[ exp^{-\int h_{A}(u) \space du -
+\space(-\int h_{B}(u) \space du \space) }  = \frac {exp^{-\int h_{A}(u)
+\space du} } {exp^{-\int h_{B}(u) \space du  }} = HR \]</span></p>
+<p>which resembles the hazard function with covariates :</p>
+<p><span class="math display">\[
+h_{A}(t)
+= h_{B}(t) \space {.} \space exp^{(\vec{X\space }^{T} \vec{B})} =
+exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
+}
+\]</span> which is simplified to :</p>
+<p><span class="math display">\[
+\frac {h_{A}(t)} {h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})} =
+exp^{-\int h_{A}(u) \space du - \space(-\int h_{B}(u) \space du \space)
+}
+\]</span></p>
+<p>Where we fit a proportional hazards model :</p>
+<p><span class="math display">\[
+\frac {exp^{-log(S_{A}(t))}}  {exp^{-log(-S_{B}(t))}} = \frac {h_{A}(t)}
+{h_{B}(t)} = exp^{(\vec{X\space }^{T} \vec{B})}
+\]</span></p>
+<p>We recognise this result with equation (3).</p>
+<p><em>This concludes the proof.</em></p>
+<div id="references" class="section level6">
+<h6>References :</h6>
+<ul>
+<li><a href="https://www.mdpi.com/530746">Emmert-Strieb, F &amp; Dehmer,
+M, Introduction to Survival Analysis in Practice</a></li>
+<li><a
+href="https://www.emilyzabor.com/tutorials/survival_analysis_in_r_tutorial.html">Zabor,
+Emily : Survival Analysis in R</a></li>
+</ul>
+</div>
+<div id="section" class="section level2">
+<h2></h2>
+</div>
 
 
 

@@ -12,6 +12,8 @@ navbar:
       href: Poems.html
     - text: "Biostats notes"
       href: Stats.html
+    - text: "Julia"
+      href: Julia.html
     - text: "Statistical Software"
       href: StatsSoftware.html
 output : 

@@ -8,7 +8,7 @@ output:
 Just another human multi-hyphenate doing my best.
 
 
-<img src="images_lifesite/open_air.jpg" style="width:100%">
+<img src="images_lifesite/TheInn2.jpg" style="width:100%">
 
 contact : via [linkedin](www.linkedin.com/in/audrey-yeo-8000)
 

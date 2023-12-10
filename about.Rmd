@@ -38,10 +38,10 @@ output:
 ### some interests : 
  * Bayesian statistics
  * Statistical Software Engineering with R language
- * Multiple Testing
+ * Probability theory
 
 ### some experiences : 
- * Clinical trials of early (favourite) and late drug development
+ * Clinical trials of early and late drug development
 
 ### disease area specialties : 
  * Haematology, Oncology
@@ -50,7 +50,7 @@ output:
  * I co-organise, moderate, chair and present in in house stats community events
 
 ### programming languages and capabilities : 
- * R, BASH/UNIX scripting, Git, MatLab but will do SQL, Python when needed
+ * Julia, R, BASH/UNIX scripting, Git, MatLab but will do SQL, Python when needed
 
 ### R packages and Shiny apps : 
  * Currently working on open sourcing internal R package for early clinical trial development
@@ -61,18 +61,19 @@ output:
 ### some publications and presentations
  * 2020: Kimmich, Nina; Yeo Te-ying, Audrey; Zimmermann, Roland; Furrer, Eva (2020). How do sustained birth tears after vaginal birth affect birth tear patterns in a subsequent birth? Journal of Perinatal Medicine,
 48(4):335-344. DOI: https://doi.org/10.1515/jpm-2020-0007
- * 2022 : A pocket guide to Bayesien decision gating - in house
+ * 2022 : A pocket guide to Bayesian decision gating - in house
  
 ### some languages
  * [Teochew](https://www.youtube.com/watch?v=qzitsYcwGjA)
- * French
+ * French ( _variété de Canton de Vaud, Suisse_ )
  * German
  * Mandarin
 
 ### current coffee table readings :
- * Resmaa Menakam's _My Grandmother's Hands_
- * Laura Khaudari's _Lifting Heavy Things_
- * Rupi Kaur's _Homebody_
+ * Tahar Ben Jelloun's _Le miel et l'amertume_ (FR)
+ * Annie Ernaux's _Mémoire de fille_ (FR)
+ * Resmaa Menakam's _My Grandmother's Hands_ (EN)
+ * Rupi Kaur's _Homebody_ (EN)
 
 ### 2023 conferences :
  * useR!2023 conference, Basel, Switzerland

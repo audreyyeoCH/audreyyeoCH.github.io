@@ -1,9 +1,8 @@
+
 ---
 title: "Julia Language"
-# format: html
-output: html
-editor: visual
-author: Audrey Yeo
+output: 
+  html_document:
 ---
 
 # Early beginnings

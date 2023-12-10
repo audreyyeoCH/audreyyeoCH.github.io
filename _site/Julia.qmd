@@ -8,6 +8,8 @@ author: Audrey Yeo
 
 # Early beginnings
 
+<image.src images_lifesite/stronggirl_fed.jpg, style = "width:50%")>
+
 ## How did I make my start in the Julia Language ? 
 
 I stumbled across `Julia` the language from a simple google search on making `R` faster. I had a goal initially to start my C++ courses, due to a consuming year that was 2023, I did not get to it, until I discovered some headspace where the language `Julia` took a priority due to its intuitive syntax, ease and promise of faster performance.
@@ -24,7 +26,9 @@ Conversely, my background in `R` helped me understand the lessons about \`If\` a
 
 As I learn with hands-on application, I searched quickly for a Julia IDE and found a [web-based](replit.com) one called `Replit` which automatically requested a link to my `github`account which I did not see relevance nor aid to my learning. The said IDE likened to the one of VS Code however when I ran the code, I would always be led into a foreign window of which felt like a point of no return. Discovering a new IDE and its workflow is often a prohibitive step for a novice, but I still wanted to concertedly do the in-lecture exercises of Julia for Nervous beginners so I resorted to doing it via my good old Mac terminal. It was so pleasant ... to also write BASH code again.
 
-Determined to get Visual Studio Code (VS) app working, I downloaded it and its Julia extension and found a frustrating block on finding my Julia.exe path in order that the code ran. Further to that, only files in the VS code workspace would be executed and not just any new file within the bounds of the VS code application. I am still awaiting an explanation for this.
+Determined to get Visual Studio Code (VS) app working, I downloaded it and its Julia extension and found a frustrating block on finding my Julia.exe path in order that the code ran. The short cut commands to run code line-by-line on the VS Code app are different between a Windows machine and a Mac, so many tutorials that I watched catered for the former which extra internet searches was required to help me see that a `option+Enter`\` or `shift+Enter` would do just that.
+
+Further to that, only files in the VS code workspace would be executed and not just any new file within the bounds of the VS code application. I am still awaiting an explanation for this.
 
 ## Next steps
 

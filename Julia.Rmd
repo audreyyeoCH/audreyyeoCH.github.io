@@ -7,9 +7,9 @@ output:
 ---
 
 # Early beginnings
-<img src="images_lifesite/lutryview.jpg" style="width:50%">
+<img src="images_lifesite/lutryview.jpg" style="width:100%">
 
-Pictured : Strong girl, Federation Square, Naarm, Australia
+Pictured : Lac Leman, 2023, Canton de Vaud, CH
 
 ### How did I make my start in the Julia Language ? 
 

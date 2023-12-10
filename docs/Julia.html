@@ -11,6 +11,7 @@
 
 <meta name="author" content="Audrey Yeo" />
 
+<meta name="date" content="2023-12-10" />
 
 <title>Julia Language</title>
 
@@ -275,6 +276,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Julia Language</h1>
 <h4 class="author">Audrey Yeo</h4>
+<h4 class="date">2023-12-10</h4>
 
 </div>
 
@@ -282,50 +284,55 @@ $(document).ready(function () {
 <div id="early-beginnings" class="section level1">
 <h1>Early beginnings</h1>
 <p><img src="images_lifesite/lutryview.jpg" style="width:100%"></p>
-<p>Pictured : Lac Leman, 2023, Canton de Vaud, CH</p>
+<p>Pictured : Lac Leman, Canton de Vaud (2023)</p>
 <div id="how-did-i-make-my-start-in-the-julia-language"
 class="section level3">
 <h3>How did I make my start in the Julia Language ?</h3>
 <p>I stumbled across <code>Julia</code> the language from a simple
 google search on making <code>R</code> faster. I had a goal initially to
-start my C++ courses, due to a consuming year that was 2023, I did not
-get to it, until I discovered some headspace where the language
+start my C++ courses, due to a Triumphant year that was 2023, I did not
+get to it, until I discovered some extra headspace where the language
 <code>Julia</code> took a priority due to its intuitive syntax, ease and
 promise of faster performance.</p>
 <p>Within the <a href="juliaacademy.com">Julia Academy</a>, I found a <a
 href="https://juliaacademy.com/courses/julia-programming-for-nervous-beginners">course
 by Henri Laurie</a> (2021), a retired professor from the University of
-Cape Town, ZA who gave a 4 weeks course ranging from 1 hour to 1.5 hour
+Cape Town, ZA who gave a 4 weeks course ranging from 1 hour to 3 hours
 per week. My criteria for picking teachers is not so stringent, and
 here, the criterion of a welcoming intent was met. Coupled with my
 advanced <code>R</code> skills (~5-7 years), I breezed through Week 1
 and 2 of the course, and relied on the qualities of a good teacher to
 push through the topics of reading and manipulating text files in
-<code>Julia</code>.</p>
+<code>Julia</code> which I did not find so interesting.</p>
 </div>
-<div id="in-the-middle-appreciating-r-via-julia-and-julia-via-r"
+<div
+id="week-2-and-3-of-julia-for-nervous-beginners-in-the-middle-appreciating-r-via-julia-and-julia-via-r"
 class="section level3">
-<h3>In the middle : Appreciating R via Julia and Julia via R</h3>
-<p>My tremendously smooth start with Julia has helped me appreciate R at
-the same time. The type system of R was something I never cared about
-until (working in software engineering) and seeing something different.
-Other examples include : what is a block scope, what is scope in
-relation to functions, what are type strings versus characters, concepts
-I never thought too deeply about when writing in R. Neither did I attend
-to the differences made in Julia between single (for character) and
-double quotation marks (for string) in R which imitates the same. The
-similarities are such as the <code>filter</code> call in the
+<h3>Week 2 and 3 of Julia for Nervous beginners: In the middle :
+Appreciating R via Julia and Julia via R</h3>
+<p>My relative smooth start with Julia has helped me appreciate R at the
+same time. The type system of R was something I never focussed on until
+(working in software engineering) and now, learning about Julia. Other
+examples include : what is a block scope, what is scope in relation to
+functions, what are type strings versus characters, concepts I never
+thought too deeply about when writing in R. Neither did I attend to the
+differences made in Julia between single quotation (for character) and
+double quotation marks (for string) in which R is the same. The
+similarities are also such as the <code>filter</code> call in the
 <code>tidyverse</code> package of R make for neat manipulations or
 strings or arrays.</p>
 <p>Conversely, my background in <code>R</code> helped me understand the
-lessons about `If` and <code>Else</code> blocks, <code>While</code>
-loops and <code>For</code> loops. It introduced Anonymous function which
-are unnamed functions but like one, maps variables it will iterate over.
-What are its future potentials ? An undiscovered territory for me.</p>
+lessons about <code>If</code> and <code>Else</code> blocks,
+<code>While</code> loops and <code>For</code> loops. It introduced
+Anonymous function which are unnamed functions but like one, maps
+variables it will iterate over. What are its future potentials ? An
+undiscovered territory for me.</p>
 </div>
-<div id="in-search-for-a-julia-ide-applicationinterface"
+<div
+id="in-search-for-a-julia-ide-applicationinterface-for-a-mac-machine"
 class="section level3">
-<h3>In search for a Julia IDE (application/interface)</h3>
+<h3>In search for a Julia IDE (application/interface) for a Mac
+machine</h3>
 <p>As I learn with hands-on application, I searched quickly for a Julia
 IDE and found a <a href="replit.com">web-based</a> one called
 <code>Replit</code> which automatically requested a link to my
@@ -335,19 +342,24 @@ the code, I would always be led into a foreign window of which felt like
 a point of no return. Discovering a new IDE and its workflow is often a
 prohibitive step for a novice, but I still wanted to concertedly do the
 in-lecture exercises of Julia for Nervous beginners so I resorted to
-doing it via my good old Mac terminal. It was so pleasant … to also
-write BASH code again.</p>
+doing it via my good old Mac terminal. It was so pleasant.</p>
 <p>Determined to get Visual Studio Code (VS) app working, I downloaded
 it and its Julia extension and found a frustrating block on finding my
-Julia.exe path in order that the code ran. The short cut commands to run
+Julia.exe path in order that the code ran. I finally googled “How to
+find my MAC application path” and it was another solution via the Mac
+terminal : <code>whereis Julia</code>. The short cut commands to run
 code line-by-line on the VS Code app are different between a Windows
 machine and a Mac, so many tutorials that I watched catered for the
 former which extra internet searches was required to help me see that a
-<code>option+Enter</code>` or <code>shift+Enter</code> would do just
-that.</p>
+<code>option+Enter</code> or <code>shift+Enter</code> would do just
+that. Whereas <code>Alt+Enter</code> will evaluate all the code in the
+entire file. These short cut keys will automatically open the Julia REPL
+where you should see <code>julia&gt;</code> appearing.
+<code>julia&gt; exit()</code> will close the REPL and expand the window
+of the editor.</p>
 <p>Further to that, only files in the VS code workspace would be
 executed and not just any new file within the bounds of the VS code
-application. I am still awaiting an explanation for this.</p>
+application. I am still understand how this is so.</p>
 </div>
 <div id="next-steps" class="section level3">
 <h3>Next steps</h3>
@@ -385,6 +397,9 @@ class="uri">https://turinglang.org</a></p>
 <p>Julia for Visual Studio Code : <a
 href="https://code.visualstudio.com/docs/languages/julia"
 class="uri">https://code.visualstudio.com/docs/languages/julia</a></p>
+<p>How to use Julia in VS Code : <a
+href="https://www.youtube.com/watch?v=FcgIvWb7gO0"
+class="uri">https://www.youtube.com/watch?v=FcgIvWb7gO0</a></p>
 <p><a href="audreyyeoch.github.io/index.html">back to home page</a></p>
 </div>
 </div>

@@ -69,6 +69,7 @@ output:
  * French ( _variété de Canton de Vaud, Suisse_ )
  * German
  * Mandarin
+ * Italian
 
 ### current coffee table readings :
  * Tahar Ben Jelloun's _Le miel et l'amertume_ (FR)
@@ -83,6 +84,6 @@ output:
  * Basel Epidemiology Seminar, Basel, Switzerland
 
 ### 2024 conferences and presentations :
-  * PSI 2024, Amsterdam, Netherlands, TBA
+  * [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, _A Bayesian approach to decision making in early development clinical trials : An R solution._, June 2024 
   * useR!2024 conference, Salzburg, Austria, TBA
 

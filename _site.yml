@@ -8,8 +8,8 @@ navbar:
       href: about.html
     # - text: "Hyphenates"
     #   href: hyphenates.html
-    - text: "Poems"
-      href: Poems.html
+    # - text: "Poems"
+    #   href: Poems.html
     - text: "Biostats notes"
       href: Stats.html
     - text: "Julia"

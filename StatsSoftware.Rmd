@@ -53,10 +53,10 @@ product available for a statistical analysis need.
 
 Statistical software that have been widely accepted are generally published in [CRAN, see pic below](https://cran.r-project.org/index.html) (The Comprehensive R Archive Network). Currently, there are over 20'000 packages on CRAN. 
 
-Good examples are :
+<!-- Good examples are : -->
 
- * [mmrm : Mixed Models for Repeated Measures](https://cran.r-project.org/web/packages/mmrm/index.html)
- * [crmPack : Model-Based Dose Escalation Designs in R with crmPack](https://github.com/roche/crmPack)
+<!--  * [mmrm : Mixed Models for Repeated Measures](https://cran.r-project.org/web/packages/mmrm/index.html) -->
+<!--  * [crmPack : Model-Based Dose Escalation Designs in R with crmPack](https://github.com/roche/crmPack) -->
 
 ## What is CRAN ?
 CRAN hosts a central hub for information about R installation, R packages and documentation.
@@ -68,8 +68,8 @@ References :
 
 [Shaw M (2002) _What makes good research in software engineering?_ International Journal of Software Tools for Technology Transfer, 2002, vol. 4, no. 1, pp. 1-7.](https://www.cs.cmu.edu/~Compose/ftp/shaw-fin-etaps.pdf)
 
-[Sabanes Bove D, Dedic J, Kelkhoff D, Kunzmann K, Lang B, Li L, Stock C, Wang Y, James D, Sidi J, Leibovitz D, Sjoberg D (2023). mmrm: Mixed Models for Repeated Measures. R package version 0.3.6,](https://openpharma.github.io/mmrm/).
+<!-- [Sabanes Bove D, Dedic J, Kelkhoff D, Kunzmann K, Lang B, Li L, Stock C, Wang Y, James D, Sidi J, Leibovitz D, Sjoberg D (2023). mmrm: Mixed Models for Repeated Measures. R package version 0.3.6,](https://openpharma.github.io/mmrm/). -->
 
-[Sabanés Bové D, Yeung WY, Palermo G, Jaki T (2019). “Model-Based Dose Escalation Designs in R with crmPack.” Journal of Statistical Software, 89(10), 1–22. doi:10.18637/jss.v089.i10.](https://github.com/roche/crmPack)
+<!-- [Sabanés Bové D, Yeung WY, Palermo G, Jaki T (2019). “Model-Based Dose Escalation Designs in R with crmPack.” Journal of Statistical Software, 89(10), 1–22. doi:10.18637/jss.v089.i10.](https://github.com/roche/crmPack) -->
 
 Got feedback ? Email me [here](mailto:comptesaudrey@gmail.com)

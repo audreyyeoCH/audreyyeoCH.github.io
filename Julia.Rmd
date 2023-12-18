@@ -3,15 +3,13 @@ title: "Julia Language"
 author: Audrey Yeo
 output: 
   html_document:
-    # toc_float : true
+    toc_float : true
 date: "2023-12-10"
 ---
 
 ### Early beginnings
 
 Two weeks ago, I stumbled across `Julia` the language from a simple google search on making `R` faster. I had a goal initially to start my C++ courses, due to a Triumphant year that was 2023, I did not get to it, until I discovered some extra headspace where the language `Julia` took a priority due to its intuitive syntax, ease and promise of faster performance. My criteria for picking teachers is not so stringent, and with Julia for Nervous beginners, the criterion of a welcoming intent was met with the instructor.
-
-
 
 <img src="images_lifesite/lutryview.jpg" style="width:100%">
 

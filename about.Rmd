@@ -24,7 +24,7 @@ output:
 
 ### some qualifications : 
 
- * University of Zürich, Master of Science in Biostatistics 
+ * University of Zürich, Master of Science in Biostatistics
  
  * University of Sydney, Master of Nursing 
 
@@ -42,10 +42,10 @@ output:
  * Probability theory
 
 ### some experiences : 
- * Clinical trials of early and late drug development
+ * Clinical trials of early and late drug development (1.5 years)
 
 ### disease area specialties : 
- * Haematology, Oncology
+ * Haematology, Oncology, Neuroscience Rare Diseases
 
 ### community events : 
  * I co-organise, moderate, chair and present in in house stats community events
@@ -62,7 +62,8 @@ output:
 ### some publications and presentations
  * 2020: Kimmich, Nina; Yeo Te-ying, Audrey; Zimmermann, Roland; Furrer, Eva (2020). How do sustained birth tears after vaginal birth affect birth tear patterns in a subsequent birth? Journal of Perinatal Medicine,
 48(4):335-344. DOI: https://doi.org/10.1515/jpm-2020-0007
- * 2022 : A pocket guide to Bayesian decision gating - in house
+ * 2022 : A pocket guide to Bayesian decision gating - internal
+ * 2024 : PSI conference
  
 ### some languages
  * [Teochew](https://www.youtube.com/watch?v=qzitsYcwGjA)
@@ -84,6 +85,6 @@ output:
  * Basel Epidemiology Seminar, Basel, Switzerland
 
 ### 2024 conferences and presentations :
-  * [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, _A Bayesian approach to decision making in early development clinical trials : An R solution._, June 2024 
+  * [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, _A Bayesian approach to decision making in early development clinical trials : An R solution._, June 2024
   * useR!2024 conference, Salzburg, Austria, TBA
 

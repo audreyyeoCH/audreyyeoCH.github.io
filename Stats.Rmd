@@ -9,8 +9,7 @@ output:
     # toc_depth: 2
 
 ---
-> I am inspired by good teachers, and I would like to acknowledge them.
-
+>_It was the novel, rather than the lecture, that got me to the finish line_
 
 <img src="images_lifesite/stmori.jpg" style="width:100%">
 \

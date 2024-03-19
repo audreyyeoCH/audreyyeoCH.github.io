@@ -42,8 +42,9 @@ output:
  * Probability theory
 
 ### some experiences : 
- * Clinical trials of early and late drug development (1.5 years)
-
+ * Clinical trials of early and late drug development
+ * Statistical Software engineering and package development (see "2024 conferences and presentations")
+ 
 ### disease area specialties : 
  * Haematology, Oncology, Neuroscience Rare Diseases
 

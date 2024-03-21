@@ -4,88 +4,100 @@ output:
   html_document:
 ---
 
-***
-<img src="images_lifesite/backerei.jpeg" style="width:80%">
+------------------------------------------------------------------------
 
-\
-\
+<img src="images_lifesite/backerei.jpeg" style="width:80%"/>
 
-***
+------------------------------------------------------------------------
 
 ### some labels
 
- * Statistical Software Engineer
- 
- * Clinical Trial Statistician
- 
+-   Statistical Software Engineer
+
+-   Clinical Trial Statistician
+
 ### some places of belonging :
- 
- * Wurundjeri Land & Naarm
 
-### some qualifications : 
+-   Naarm (Indigenous name of Melbourne)
+-   Wurundjeri Land (Indigenous name of Victoria)
 
- * University of Zürich, Master of Science in Biostatistics
- 
- * University of Sydney, Master of Nursing 
+### some qualifications :
 
-   (but I am a proud Victorian)
+-   University of Zürich, Master of Science in Biostatistics
 
-### most memorable Swiss uni though : 
- 
- * University of Geneva, Bachelor of Economics and Statistics 
- 
-   (the summer by the lake and friends to fill your heart)
+-   University of Sydney, Master of Nursing
 
-### some interests : 
- * Bayesian statistics
- * Statistical Software Engineering with R language
- * Probability theory
+    (but I am a proud Victorian)
 
-### some experiences : 
- * Clinical trials of early and late drug development
- * Statistical Software engineering and package development (see "2024 conferences and presentations")
- 
-### disease area specialties : 
- * Haematology, Oncology, Neuroscience Rare Diseases
+### most memorable Swiss uni though :
 
-### community events : 
- * I co-organise, moderate, chair and present in in house stats community events
+-   University of Geneva, Bachelor of Economics and Statistics
 
-### programming languages and capabilities : 
- * Julia, R, BASH/UNIX scripting, Git, MatLab but will do SQL, Python when needed
+    (the summer by the lake and friends to fill your heart)
 
-### R packages and Shiny apps : 
- * Currently working on open sourcing internal R package for early clinical trial development
+### some interests :
+
+-   Bayesian statistics
+-   Statistical Software Engineering with R language
+-   Probability theory
+-   Adaptive design
+-   Causal Inference
+
+### some experiences :
+
+-   Clinical trials of early and late drug development
+-   Statistical Software engineering and package development (see "2024 conferences and presentations")
+-   Teaching Julia Programming (Q1-2, 2024) with a team of Julia instructors to Roche, Basel's Scientists and Data Scientists
+
+### disease area specialties :
+
+-   Haematology, Oncology, Neuroscience Rare Diseases
+
+### community events :
+
+-   I co-organise, moderate, chair and present in in house stats community events
+
+### programming languages and capabilities :
+
+-   Julia, R, BASH/UNIX scripting, Git, MatLab but will do SQL, Python when needed
+
+### R packages and Shiny apps :
+
+-   Currently working on open sourcing internal R package for early clinical trial development
 
 ### examples of past work
- * My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work 
+
+-   My [Github](https://github.com/audreyyeoCH) has examples of past and present academic and non-industry work
 
 ### some publications and presentations
- * 2020: Kimmich, Nina; Yeo Te-ying, Audrey; Zimmermann, Roland; Furrer, Eva (2020). How do sustained birth tears after vaginal birth affect birth tear patterns in a subsequent birth? Journal of Perinatal Medicine,
-48(4):335-344. DOI: https://doi.org/10.1515/jpm-2020-0007
- * 2022 : A pocket guide to Bayesian decision gating - internal
- * 2024 : PSI conference
- 
+
+-   2020: Kimmich, Nina; Yeo Te-ying, Audrey; Zimmermann, Roland; Furrer, Eva (2020). How do sustained birth tears after vaginal birth affect birth tear patterns in a subsequent birth? Journal of Perinatal Medicine, 48(4):335-344. DOI: <https://doi.org/10.1515/jpm-2020-0007>
+-   2022 : A pocket guide to Bayesian decision gating - internal
+-   2024 : PSI conference
+
 ### some languages
- * [Teochew](https://www.youtube.com/watch?v=qzitsYcwGjA)
- * French ( _variété de Canton de Vaud, Suisse_ )
- * German
- * Mandarin
- * Italian
+
+-   [Teochew](https://www.youtube.com/watch?v=qzitsYcwGjA)
+-   French ( *variété de Canton de Vaud, Suisse* )
+-   German
+-   Mandarin
+-   Italian
 
 ### current coffee table readings :
- * Tahar Ben Jelloun's _Le miel et l'amertume_ (FR)
- * Annie Ernaux's _Mémoire de fille_ (FR)
- * Resmaa Menakam's _My Grandmother's Hands_ (EN)
- * Rupi Kaur's _Homebody_ (EN)
+
+-   Tahar Ben Jelloun's *Le miel et l'amertume* (FR)
+-   Annie Ernaux's *Mémoire de fille* (FR)
+-   Resmaa Menakam's *My Grandmother's Hands* (EN)
+-   Rupi Kaur's *Homebody* (EN)
 
 ### 2023 conferences :
- * useR!2023 conference, Basel, Switzerland
- * CEN 2023 conference, Basel, Switzerland
- * R/Pharma 2023, world
- * Basel Epidemiology Seminar, Basel, Switzerland
+
+-   useR!2023 conference, Basel, Switzerland
+-   CEN 2023 conference, Basel, Switzerland
+-   R/Pharma 2023, world
+-   Basel Epidemiology Seminar, Basel, Switzerland
 
 ### 2024 conferences and presentations :
-  * [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, _A Bayesian approach to decision making in early development clinical trials : An R solution._, June 2024
-  * useR!2024 conference, Salzburg, Austria, TBA
 
+-   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024
+-   useR!2024 conference, Salzburg, Austria, TBA

@@ -12,14 +12,16 @@ output:
 
 ### some labels
 
--   Statistical Software Engineer
+-   Software Engineer
 
--   Clinical Trial Statistician
+-   Biostatistician
+
+-   Poet, Fine Artist
 
 ### some places of belonging :
 
--   Naarm (Indigenous name of Melbourne)
--   Wurundjeri Land (Indigenous name of Victoria)
+-   Naarm (Indigenous name of Melbourne, Victoria, Australia)
+-   Wurundjeri Land (Indigenous name of Victoria, Australia)
 
 ### some qualifications :
 
@@ -45,9 +47,11 @@ output:
 
 ### some experiences :
 
--   Clinical trials of early and late drug development
--   Statistical Software engineering and package development (see "2024 conferences and presentations")
--   Teaching Julia Programming (Q1-2, 2024) with a team of Julia instructors to Roche, Basel's Scientists and Data Scientists
+-   [Finance] Digital Transformation in Finance Sector engaging multi-continent stakeholders from end-user to sponsors
+-   [Science] Reproducibility research for a certain statistical method in Medicine
+-   [Pharma] Clinical trials of early and late drug development
+-   [Pharma] Statistical Software engineering and package development (see "2024 conferences and presentations")
+-   [Pharma] Teaching Julia Programming (Q1-2, 2024) with a team of Julia instructors to Roche, Basel's Scientists and Data Scientists
 
 ### disease area specialties :
 

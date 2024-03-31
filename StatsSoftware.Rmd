@@ -4,7 +4,8 @@ output:
   html_document:
     # toc : true
     # toc_float : true
-date: "2023-12-02"
+date: "`r Sys.Date()`"
+
 ---
 
 _I would like to acknowledge past and current colleagues who have enriched my knowledge of 
@@ -14,6 +15,8 @@ statistical software engineering_
 \
 Pictured : Alma Mater, University of Zürich, (2023)
 \
+
+
 
 ## What am I currently working on ?
 

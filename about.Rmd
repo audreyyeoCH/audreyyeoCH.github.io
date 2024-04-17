@@ -8,6 +8,9 @@ output:
 
 <img src="images_lifesite/backerei.jpeg" style="width:80%"/>
 
+Pictured : Die Backerei, Innsbruck, Austria
+
+
 ------------------------------------------------------------------------
 
 ### some labels
@@ -77,12 +80,12 @@ output:
 
 -   2020: Kimmich, Nina; Yeo Te-ying, Audrey; Zimmermann, Roland; Furrer, Eva (2020). How do sustained birth tears after vaginal birth affect birth tear patterns in a subsequent birth? Journal of Perinatal Medicine, 48(4):335-344. DOI: <https://doi.org/10.1515/jpm-2020-0007>
 -   2022 : A pocket guide to Bayesian decision gating - internal
--   2024 : PSI conference
+-   2024 : PSI conference and useR!2024 conference, see below
 
 ### some languages
 
 -   [Teochew](https://www.youtube.com/watch?v=qzitsYcwGjA)
--   French ( *variété de Canton de Vaud, Suisse* )
+-   French
 -   German
 -   Mandarin
 -   Italian
@@ -94,14 +97,15 @@ output:
 -   Resmaa Menakam's *My Grandmother's Hands* (EN)
 -   Rupi Kaur's *Homebody* (EN)
 
+### 2024 conferences and presentations :
+
+-   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024
+-   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, July 2024
+-   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, July 2024
+
 ### 2023 conferences :
 
 -   useR!2023 conference, Basel, Switzerland
 -   CEN 2023 conference, Basel, Switzerland
 -   R/Pharma 2023, world
 -   Basel Epidemiology Seminar, Basel, Switzerland
-
-### 2024 conferences and presentations :
-
--   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024
--   useR!2024 conference, Salzburg, Austria, TBA

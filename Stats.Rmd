@@ -13,6 +13,7 @@ output:
 
 <img src="images_lifesite/stmori.jpg" style="width:100%">
 \
+
 Pictured : St Moritz, Switzerland (2022)
 
 

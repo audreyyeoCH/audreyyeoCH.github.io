@@ -6,7 +6,7 @@ output:
 
 ------------------------------------------------------------------------
 
-<img src="images_lifesite/backerei.jpeg" style="width:80%"/>
+<img src="docs/images_lifesite/backerei.jpeg" style="width:50%"/>
 
 Pictured : Die Backerei, Innsbruck, Austria
 
@@ -15,7 +15,7 @@ Pictured : Die Backerei, Innsbruck, Austria
 
 ### some labels
 
--   Software Engineer
+-   Software Engineer / Computational Statistician
 
 -   Biostatistician
 

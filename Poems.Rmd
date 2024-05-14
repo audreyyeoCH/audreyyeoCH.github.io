@@ -1,0 +1,348 @@
+---
+title: "Poetry by Audrey Yeo"
+output:
+  html_document:
+   #  toc : true
+    # toc_float: true
+    # toc_depth : 2
+
+---
+
+<img src="docs/images_lifesite/lagos4.jpg" style="width:100%">
+\
+Pictured : Isole di Brissago (2023)
+
+***
+_Introduction_
+
+
+These poems are like a revision of histories
+
+Of yours, of mine, of somebody's
+
+They are glimmers explained in cryptic themes
+
+I pluck the root up to discover
+
+My hands have moonshine before
+
+And in poetry I build a home
+
+For orphaned feelings to find lustre
+
+***
+
+## The Dance of Strings
+
+_Audrey Yeo Famille Yeo, Basel City (2023)_
+
+The Bass solo hugs me
+
+Like a gentle soul
+
+His stark eye brows know
+
+That this pain is old
+
+And it embraces the imperfection of my growth
+
+Like the hollow body of the electric tones
+
+Like its structure
+
+Holding a broken soul
+
+While gentle strings
+
+Go curly on the indignant of the young of me
+
+How could a tune
+
+Be so lovely
+
+In a song
+
+Where the dances of the strings
+
+Show us the way
+
+To our love-ability, before today
+
+Whilst the bass saxophone
+
+Share its fluffy tones
+
+telling tales
+
+Of calling good places, a Home
+
+These slow and citrus lights
+
+Lace around a familiar night
+
+Carry melodies with an endearing 
+
+Might
+
+With its gentle Bass
+
+Like arms knowing
+
+How fragile is 
+
+Life
+
+***
+
+## The Coping Mechanism
+_Audrey Yeo, Ristorante Stella, Locarno, Switzerland (2024)_
+
+The lantern jaw leaning against your left fist
+
+Holding the tilt you made
+
+While watching over me speak
+
+Your eyes saying more than what you said
+
+I saw the wrinkles lighten up
+
+For ninety minutes straight
+
+Do you often invite kind strangers
+
+To take a place in your bed
+
+And assign them as guests
+
+At your parents
+
+Why is your coping mechanism
+
+Making nothing between us happen ?
+
+But you tilt your head as your beaded eyes
+
+Won’t leave my face
+
+If it wasn’t for the screen
+
+We would be tied at the waist
+
+Because we have been once before
+
+Our night in Basel
+
+Now seems like a lore
+
+You might lie to yourself
+
+But our bodies know
+
+What they saw
+
+Which remains nothing of your concern
+
+I know we have magic
+
+But you have your coping mechanism
+
+***
+## Sick inside
+
+_Audrey Yeo_, Famille Yeo, (2023)
+
+I know I am sick inside
+
+When the stove only needs checking thrice
+
+When the door handle is tested
+
+Of an embarrassing count
+
+Because I occupied someones mind
+
+And apparently their crown
+
+I am sick a weird amount
+
+My blood was anti-disease
+
+But it was also frought with self-doubt 
+
+And that put her at ease
+
+I read of the symptoms
+
+I am a kind of sick
+
+Grieving for lost faith
+
+In women who awaken allyship
+
+With no intention
+
+to share their privilege
+
+Made me sick from day to late
+
+Working through Saturdays and Sundays
+
+Because they made me feel so
+
+Afraid
+
+I must have been the star of the show: 
+
+For why would two sisters sow their seeds
+
+Just to kill their own ? 
+
+***
+
+## Under the Water is the Sages
+_Audrey Yeo, Fitzoy Pool, Melbourne, Australia (2012)_
+
+It starts with a drizzle
+
+And it hits your arms
+
+You rise above and the view is marred
+
+Racing grey moist is taken by clumps
+
+The Banshee cries with the angry storm
+
+You rise above the pool and hear
+
+Her cries that dry all wounds beneath
+
+And flutter as you catch on fear
+
+That warmth and shelter isn't near
+
+The wind that tends to whet each drop
+
+Of Rain and sends you to a shock
+
+But you find no way on land to go
+
+Your sight improves as you swim below
+
+Oh dear the view is Clarity
+
+And now you see the route of forces
+
+Of traps and diversions you can go
+
+Your mind's at ease at even losses
+
+And even when the water rises
+
+And Banshee's blood is bled on it
+
+Her cries aren't heard under the water
+
+But my eyes do see where this path leads
+
+The racing clouds do not stop
+
+Fleeting past the ranges
+
+Anarchy or peace it may tell
+
+Under the water is the sages
+
+***
+
+## The Magic Green of the Rhine
+_Audrey Yeo, La Rhine x Burgweg, Switzerland (2021)_
+
+I see how this goes
+
+When things between us start ending
+
+I see the river course reversing
+
+The steps back are crushing
+
+The retracting amount to hurt
+
+You know it was you who waved at me first
+
+I,
+
+See how this goes
+
+When things between us start ending
+
+
+I saw the sun hit the river and it gloat
+
+The magic green of the Rhine turned to a ghost ...
+
+Destabilizing my universe,
+
+I thought I shared bounds of land with you
+
+And we were mastering our respective fools
+
+A reflection of sun by water
+
+My stature so short did I ever reach the magic river
+
+But the ocean soon came out to dissolve
+
+Green jade of glacier from our mountain tops
+
+The empty expecting mirth
+
+You laughed out loud
+
+Excused by the afternoon wind
+
+It paralyzes me so I can never win
+
+I was drenched by river 
+
+or so I thought
+
+I was once your lover
+
+and now I am not
+
+***
+## Diversity Candidate
+_Audrey Yeo_, at Gundelingen, Basel City (2022)
+
+I feel exposed
+
+Like the wind caught me
+
+Perforating my soul
+
+Exposed I was two days ago
+
+I am a solo trainee in this once in a lifetime journey
+
+And while I move ahead I think I am slow
+
+But are my frictions making traction or is speed my goal ?
+
+I don't know if it's right to feel a certain instability
+
+Like the world said I could come with
+
+But it could also swallow me
+
+My feet are perched but I feel them cycle in the air
+
+I take flight and feel light but am never anywhere
+
+Or is it that I've landed and I am having a ball
+
+Or that I can feel safe now
+
+But I don't know how to
+
+Anymore

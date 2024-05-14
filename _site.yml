@@ -16,6 +16,10 @@ navbar:
       href: Julia.html
     - text: "Statistical Software"
       href: StatsSoftware.html
+    - text: "Poetry"
+      href: Poems.html
+    - text: "Fine Art"
+      href: FineArt.html
 output : 
  html_document : 
     theme: cosmo

@@ -11,10 +11,11 @@ output:
 ---
 >_It was the novel, rather than the lecture, that got me to the finish line_
 
-<img src="images_lifesite/stmori.jpg" style="width:100%">
+\
+<img src="docs/images_lifesite/Lagos2.jpeg" style="width:100%">
 \
 
-Pictured : St Moritz, Switzerland (2022)
+Pictured : Lago Maggiore, Locarno, Switzerland (2024)
 
 
 A mathematical proof of $S_{A}(t) = S_{B}(t)^{HR}$, the Proportional hazards assumption.

@@ -12,7 +12,7 @@ output:
 >_It was the novel, rather than the lecture, that got me to the finish line_
 
 \
-<img src="docs/images_lifesite/Lagos2.jpeg" style="width:100%">
+<img src="images_lifesite/Lagos2.jpeg" style="width:100%">
 \
 
 Pictured : Lago Maggiore, Locarno, Switzerland (2024)

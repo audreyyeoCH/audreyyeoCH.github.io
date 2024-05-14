@@ -11,7 +11,7 @@ date: "`r Sys.Date()`"
 _I would like to acknowledge past and current colleagues who have enriched my knowledge of 
 statistical software engineering_
 
-<img src="docs/images_lifesite/almanater.jpg" style="width:100%">
+<img src="images_lifesite/almanater.jpg" style="width:100%">
 
 \
 Pictured : Alma Mater, University of Zürich, (2023)

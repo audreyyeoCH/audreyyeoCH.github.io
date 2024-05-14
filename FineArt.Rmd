@@ -4,16 +4,16 @@ output: html_document
 date: "2024-05-14"
 ---
 
-<img src="docs/images_lifesite/YEO_Golden_Cherry_Blossoms_2020.jpg" style="width:50%">
+<img src="images_lifesite/YEO_Golden_Cherry_Blossoms_2020.jpg" style="width:50%">
 \
 Pictured : Golden Cherry Blossoms (2023)
 
 
-<img src="docs/images_lifesite/YEO_Im_Lauf_der_Zeit_2020.jpg" style="width:100%">
+<img src="images_lifesite/YEO_Im_Lauf_der_Zeit_2020.jpg" style="width:100%">
 \
 Pictured : Im Lauf der Zeit (2020)
 
 
-<img src="docs/images_lifesite/YEO_Unseen_2020.jpg" style="width:100%">
+<img src="images_lifesite/YEO_Unseen_2020.jpg" style="width:100%">
 \
 Pictured : Unseen (2020)

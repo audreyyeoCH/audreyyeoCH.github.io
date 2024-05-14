@@ -7,7 +7,7 @@ output:
 
 Just another human multi-hyphenate doing my best.
 
-<img src="docs/images_lifesite/Orselina1.jpeg" style="width:100%"/>
+<img src="images_lifesite/Orselina1.jpeg" style="width:100%"/>
 
 Pictured : Orselina, Locarno, Switzerland, (2024)
 

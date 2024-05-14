@@ -6,7 +6,7 @@ output:
 
 ------------------------------------------------------------------------
 
-<img src="docs/images_lifesite/backerei.jpeg" style="width:50%"/>
+<img src="images_lifesite/backerei.jpeg" style="width:50%"/>
 
 Pictured : Die Backerei, Innsbruck, Austria
 

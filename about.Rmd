@@ -19,7 +19,9 @@ Pictured : Die Backerei, Innsbruck, Austria
 
 -   Biostatistician
 
--   Poet, Fine Artist
+-   Poet, Fine Artist*
+
+(*Creative work displayed applies under [Swiss Federal Act on Copyright and Related Rights](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/en))
 
 ### some places of belonging :
 
@@ -109,3 +111,10 @@ Pictured : Die Backerei, Innsbruck, Austria
 -   CEN 2023 conference, Basel, Switzerland
 -   R/Pharma 2023, world
 -   Basel Epidemiology Seminar, Basel, Switzerland
+
+### some videos I was in
+
+- [Spatial Statistics talk during MSc Biostatistics, 2018](https://youtu.be/MBc3C2uc19I)
+- [Firesidechat with R Ladies, 2024](https://www.youtube.com/watch?v=l-pK7e0pfcU)
+
+- [Firesidechat with Kurt Honik and Torsten Hothornm 2024](https://www.youtube.com/watch?v=q4IS5wqFI3U)

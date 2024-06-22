@@ -104,6 +104,7 @@ Pictured : Die Backerei, Innsbruck, Austria
 -   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024, [slides and code for slides here](https://github.com/audreyyeoCH/presentations2024/blob/main/index2.qmd)
 -   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, July 2024
 -   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *Statistical Software Engineering : A Statistican's Technical journey in R.*, July 2024
+- [PHUSE 2024](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=40702&eventID=64&traceRedir=2), Basel, Switzerland : *Gearing our industry Statisticians up for Software success : A phase1b journey.* September 2024 [abstract here](https://github.com/audreyyeoCH/presentations2024/)
 
 ### 2023 conferences :
 
@@ -116,5 +117,5 @@ Pictured : Die Backerei, Innsbruck, Austria
 
 - [Spatial Statistics talk during MSc Biostatistics, 2018](https://youtu.be/MBc3C2uc19I)
 - [Firesidechat with R Ladies, 2024](https://www.youtube.com/watch?v=l-pK7e0pfcU)
-
-- [Firesidechat with Kurt Honik and Torsten Hothornm 2024](https://www.youtube.com/watch?v=q4IS5wqFI3U)
+- [Firesidechat with R Forwards (Heather Turner) and Abhishek Ulayil, 2024](https://www.youtube.com/watch?v=18-QFbLC2cY)
+- [Firesidechat with Kurt Honik and Torsten Hothorn 2024](https://www.youtube.com/watch?v=q4IS5wqFI3U)

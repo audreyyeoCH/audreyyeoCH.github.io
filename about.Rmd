@@ -101,7 +101,7 @@ Pictured : Die Backerei, Innsbruck, Austria
 
 ### 2024 conferences and presentations :
 
--   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024
+-   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024, [slides and code for slides here](https://github.com/audreyyeoCH/presentations2024/blob/main/index2.qmd)
 -   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, July 2024
 -   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *Statistical Software Engineering : A Statistican's Technical journey in R.*, July 2024
 

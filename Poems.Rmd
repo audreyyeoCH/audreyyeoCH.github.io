@@ -2,7 +2,7 @@
 title: "Poetry by Audrey Yeo"
 output:
   html_document:
-   #  toc : true
+   toc : true
     # toc_float: true
     # toc_depth : 2
 
@@ -29,6 +29,136 @@ My hands have moonshine before
 And in poetry I build a home
 
 For orphaned feelings to find lustre
+
+***
+## Rafaël
+_Audrey Yeo_, Basel/Vienna (2024)
+
+The non-stop rain in May
+
+And the unpromising summer of June
+
+A whift of air came in
+
+Bringing in jasmine perfume
+
+That is a future with and without you
+
+My Raphaël
+
+A turning point in history
+
+Of vicious dreams that sell
+
+Like a constant reinforcement
+
+From mixtapes that tell
+
+I was in a closing cell
+
+I let, the giving rain in May
+
+Dilute the pain his silence gave in waves
+
+I let the ablative sunrise
+
+end ideas before it ends my remaining foresight
+
+Rip up the words he sent just the same
+
+Knowing he's not just a poem I named
+
+But scores of music weaved onto my skin
+
+My mid afternoon jasmine
+
+Was forced to follow the wind
+
+As I breath in and out the withdrawal inside 
+
+And see that it was merely a cruel high
+
+So I killed the day's scent one by one
+
+It may months before I un-love a deceiving
+
+Human
+
+Let his gestures be about his revenge
+
+Let the giving summer
+
+restore the generosity in my human
+
+And hold my heart out in uncharted terrains
+
+take planted seedlings
+
+and make space for 
+
+lonelier days
+
+***
+## The ducks and Ama 
+_Audrey Yeo_, at the Rhine, Kleinbasel side, Switzerland (2021)
+
+I asked the ducks in the water
+
+If they have seen my Ama
+
+If the water they touch, touched her
+
+If the streams they brush their feathers with
+
+Held all five of her fingers on each of her hand
+
+and tell her... we haven't let her go
+
+and we will one day return
+
+and be hand in hand like
+
+the younger me she would not let go...
+
+I wonder how to reach her
+
+Knowing she is buried down under ...
+
+Will the coffin disintegrate
+
+and rain dilute her to the waters
+
+Will she meet me in Switzerland ?
+
+Where we can be together
+
+Will my Akung's words be true ?
+
+When he said :
+
+"_We will always be with you_"
+
+I know the ducks pass by: "Hello stranger!...
+
+...Do you know my Ama ? ... She was _my_ grandma"
+
+A favourite parent: she liked safety, having enough for us to eat, being clean.
+
+She kept the children healthy
+
+When there was dengue.
+
+Do you know her... little duckies?...
+
+Because in a lot of ways, _I am so much like her_ 
+
+... sturdy, efficient and I like numbers
+
+Will you tell her when you see her to not let us go ?
+
+I know she hates complainers 
+
+but I just miss her so.
 
 ***
 ## Conversations about leaving Ballet

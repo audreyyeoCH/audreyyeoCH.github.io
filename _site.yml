@@ -1,4 +1,5 @@
 name: "Audrey Yeo"
+output_dir : docs
 navbar:
   title: "Audrey Yeo"
   left:

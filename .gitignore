@@ -13,3 +13,5 @@
         _site/docs/Julia.html
 .DS_Store
 _site.
+docs/test.html
+docs/test_files/

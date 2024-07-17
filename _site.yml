@@ -18,7 +18,7 @@ navbar:
     - text: "Statistical Software"
       href: StatsSoftware.html
     - text: "Poetry"
-      href: Poems2.html
+      href: Poems.html
     - text: "Fine Art"
       href: FineArt.html
 output : 

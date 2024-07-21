@@ -19,8 +19,10 @@ navbar:
       href: StatsSoftware.html
     - text: "Poetry"
       href: Poems.html
-    - text: "Fine Art"
-      href: FineArt.html
+    # - text: "Fine Art"
+    #   href: FineArt.html
+    - text: "Talks"
+      href: Talks.html
 output : 
  html_document : 
     theme: cosmo

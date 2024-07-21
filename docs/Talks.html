@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Talks</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Audrey Yeo</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="Stats.html">Biostats notes</a>
+</li>
+<li>
+  <a href="Julia.html">Julia</a>
+</li>
+<li>
+  <a href="StatsSoftware.html">Statistical Software</a>
+</li>
+<li>
+  <a href="Poems.html">Poetry</a>
+</li>
+<li>
+  <a href="Talks.html">Talks</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Talks</h1>
+
+</div>
+
+
+<ul>
+<li><a
+href="https://www.psiweb.org/conferences/about-the-conference">PSI
+2024</a>, Amsterdam, Netherlands, <em>A Bayesian approach to decision
+making in early development clinical trials : An R solution.</em>, June
+2024, <a
+href="https://github.com/audreyyeoCH/presentations2024/blob/main/index2.qmd">slides
+and code for slides here</a></li>
+<li><a
+href="https://events.linuxfoundation.org/user/program/schedule/">useR!2024
+conference</a>, Salzburg, Austria, <em>A Bayesian approach to decision
+making in early development clinical trials : An R solution.</em>, July
+2024 <a
+href="https://github.com/audreyyeoCH/presentations2024/tree/main/useR2024_Talks/phase1b_Bayesian_approach_decision_making">slides
+and code for slides here</a></li>
+<li><a
+href="https://events.linuxfoundation.org/user/program/schedule/">useR!2024
+conference</a>, Salzburg, Austria, <em>Statistical Software Engineering
+: A Statistican’s Technical journey in R.</em>, July 2024 slides and
+code for slides here](<a
+href="https://github.com/audreyyeoCH/presentations2024/tree/main/useR2024_Talks/Stats_soft_eng_journey"
+class="uri">https://github.com/audreyyeoCH/presentations2024/tree/main/useR2024_Talks/Stats_soft_eng_journey</a>)</li>
+<li><a
+href="https://events.linuxfoundation.org/user/program/schedule/">useR!2024
+conference Keynote Address 10 July 2024 : “a(R)t is the Engine for
+Change”</a> <a
+href="https://github.com/audreyyeoCH/presentations2024/tree/main/useR_2024_opening_remarks">slides
+and code for slides</a></li>
+<li><a
+href="https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=40702&amp;eventID=64&amp;traceRedir=2">PHUSE
+2024</a>, Basel, Switzerland : <em>Gearing our industry Statisticians up
+for Software success : A phase1b journey.</em> September 2024 <a
+href="https://github.com/audreyyeoCH/presentations2024/">abstract
+here</a> [link coming soon]</li>
+</ul>
+<p>Below is the script to my keynote address. The accompanying slide can
+be found <a
+href="https://github.com/audreyyeoCH/presentations2024/tree/main/useR_2024_opening_remarks">here</a>
+in <code>.pdf</code> or <code>.html</code> version and is as much as
+possible, colour-blind friendly and contains ALT text.</p>
+<div id="abstract-and-script-keynote-at-user-2024-salzburg-austria"
+class="section level1">
+<h1>Abstract and Script : Keynote at useR! 2024 Salzburg, Austria
+🎹</h1>
+<p>Abstract: <em>“a(R)t is the engine for change”</em> Adam Grant said :
+Great minds do not think alike. They challenge each other to think
+again. In my opening remarks, I will borrow from Great minds in diverse
+Literature and how they can guide us to create collaborations and
+opportunities that span beyond the conference. I will also talk about
+how we can take similar steps to make the work that we do, a part of a
+long term-process for inclusion.</p>
+<p>Script by slide: ### Slide : (Title slide) Art is the engine for
+change.</p>
+<p>Good morning. My name is Audrey Yeo and I’ve travelled from
+Switzerland to be here. I am a Statistician and StatiScript by slide:
+### Slide : (Title slide) Art is the engine for change.</p>
+<p>Good morning. My name is Audrey Yeo and I’ve travelled from
+Switzerland to be here. I am a Statistician and Statistical Software
+Engineer. For useR!2024 I am the Diversity Equity and Inclusion (DEI)
+Committee Lead and on behalf of the sponsors, Linux Foundation and
+myself, a warm welcome to all of you.</p>
+<p>I am excited about the diversity we have in our R community because …
+Great minds do not think alike, they challenge each other to think
+again. Adam Grant.</p>
+<div id="slide-all-are-welcome-here" class="section level3">
+<h3>Slide : All are welcome here</h3>
+<p>I want to acknowledge the geographically and linguistically diverse R
+communities that are in this room, and also joining us virtually.</p>
+<p>I want to acknowledge the Neurodiversity in our community as
+well.</p>
+<p>I want to thank the broader DEI community and LF for all the patience
+and hard work in educating me, on how to we make this conference more
+inclusive.</p>
+<p>Our volunteers from various R ladies chapters including Global,
+Salzburg, R Forwards, rainbowR et al who have put their minds together
+to bring this event to all of you.</p>
+</div>
+<div id="slide-events-new" class="section level3">
+<h3>Slide : Events NEW</h3>
+<p>And these events are such as….Birds of a Feather lunch, and Inclusive
+Pathways to Life Sciences and Tech panel.</p>
+</div>
+<div id="slide-events-past" class="section level3">
+<h3>Slide : Events PAST</h3>
+<p>Thanks to our DEI volunteers, in this conference we have had R Ladies
+Meet up dinner and R Ladies Birds of a Feather Lunch. Yesterday evening,
+we held Inclusive Pathways to Life Sciences and TEch careers.</p>
+</div>
+<div id="slide-events-new-1" class="section level3">
+<h3>Slide : Events NEW</h3>
+<p>And today, rainbowR and Allies will have lunch together today.
+Rainbow R is a community that supports, promotes and connects LGBTQ+
+people who code in the R language.</p>
+<p>That’s right. Not just people who make great HEX stickers.</p>
+</div>
+<div id="slide-rule-10" class="section level3">
+<h3>Slide : Rule 10</h3>
+<p>Throughout the preparations for this conference we refer to the paper
+by Joo et all 2022 on how to run a more inclusive conference. Our goal
+was to make Rule no. 10, Rule no.1</p>
+<p>We have given our scholarships, created Gender Neutral Bathrooms, and
+community has contributed to a spotify playlist of songs from all around
+the world including indigenous communities. I hope you found something
+that made you feel welcome Slide : Inclusive Speaker Orientation</p>
+<p>The Speakers of this conference have also taken part in making
+everyone feel more included, that is, the inclusive speaker
+orientation.</p>
+<p>I want to read to you the definition of D and I from this course.</p>
+<p>Diversity refers to the vast array of human differences especially
+those that have been HISTORICALLY disadvantaged</p>
+<p>Inclusion refers to systems that ACTIVELY include and support
+individuals regardless of their identities</p>
+<p>I will acknowledge the historical precedence for what makes our world
+so divided in my talk as part of a long term process for inclusion. To
+the attendees, I recommend that you too take this course which is
+available on the LF website.</p>
+</div>
+<div id="slide-who-am-i" class="section level3">
+<h3>Slide : Who am I</h3>
+<p>You may be asking, who am I ? Well, I am just like you. Navigating in
+this complex world and doing my best.</p>
+<p>I am a Clinician, Poet, Statistician and Software Engineer.</p>
+<p>I’ve worked in Healthcare, Finance, Academy and now Pharma.</p>
+<p>And maybe just like you, I cycle, Swim, Boulder, write and perform
+Poetry. Slide : Why are we here ?</p>
+<p>But why are we ALL here ?</p>
+<p>Again I refer to Joo on what a good conference is.</p>
+<p>A good conference experience can make a difference in the
+professional development of the participants and create long-lasting
+collaborations and opportunities (Joo et al, 2022)</p>
+</div>
+<div id="slide-our-vision-at-user2024" class="section level3">
+<h3>Slide : Our vision at useR!2024</h3>
+<p>Our vision here at useR!2024 is improve accessibility for the wider
+community such that they can participate and feel safe regardless of
+gender, gender identity, sexual orientation, disability, race,
+ethnicity, age, religion or economic status…</p>
+</div>
+<div id="slide-how-do-we" class="section level3">
+<h3>Slide : How do we ?</h3>
+<p>Create long-lasting collaborations and opportunities.</p>
+<p>A safe space and</p>
+<p>Make the conference part of a long-term process for inclusion ?</p>
+<p>I have two suggestions.</p>
+</div>
+<div id="slide-how-do-we-achieve-these-3-goals" class="section level3">
+<h3>Slide : How do we achieve these 3 goals</h3>
+<p>Code of conduct. Please read the code of conduct. Be kind. Be
+respectful.</p>
+<p>The second I borrow from the arts. Let me share with you a quote from
+a Malaysian novelist for the Booker prize book The Garden of Evening
+Mists..</p>
+<p>“A raintree bent towards a window in one side of the bungalow,
+eavesdropping on the conversations that had taken place inside over
+years.”</p>
+<p>The imagery of this phrase likens to</p>
+<p>Encouraging as people to listen in with care and consider the
+accumulated journeys, iteration of thought and experiences, realities
+and labor that precedes before the present time. We can be curious.</p>
+<p>We can Be kind. Be Respectful. Be curious.</p>
+<p>Before go more into arts lets go into the foundation of Science.
+Statistics. Slide : Statisticians in History</p>
+<p>Great statisticians on google are Calyampudi, Jerzy, David, Carl,
+William, William, Ronald, John, FLORENCE, Bradley, William, Bruno … I
+think you get where we are going with this.</p>
+<p>I want to talk about Florence Nightingale. The German Wikipedia in my
+view has a more inclusive summary of whe FN was. I know bc I studied
+both a M Nursing and a M Statistics.</p>
+<p>FN according to the DE wikipedia, was a British Nurse, Statistician,
+and founder of modern Western Nursing.</p>
+<p>If you didn’t know about her, FN was born about 300 years ago to a
+wealthy and well connected family which is start of her legacy as well.
+Her father took charge of her and her sisters education, allowing for
+them to study modern and ancient languages, music, painting, sewing and
+when FN was 20, at her insistence, her father paid for mathematics
+lessons. As she was well connected and made long EU trips, she had the
+opportunity to observe a German head of nursing and was asked to be a
+superintendent of a nursing home and when the Crimean war broke out, she
+also went in the efforts to nurse injured soldiers.</p>
+<p>FN made headlines for her sharp judgment and call for reform of
+hospitals. Calling out overcrowdedness and lack of air circulation for
+causes and persistence of illness just to name a few.</p>
+<p>If there was twitter and linkedin at that time, FN might have also
+been viral on instagram.</p>
+<p>There are many quotes from FN on nursing but this is one of
+statistics. It says: “Their principle, if logically carried out, is
+simply to throw out all ages and all diseases and then there would be no
+mortality whatever.” FN encourage critical thinking of data integrity,
+completeness of data, and highlighted the risk of bias and its
+inference. These are features of modern statistics.</p>
+</div>
+<div id="slide-on-florence-nightingale" class="section level3">
+<h3>Slide : On Florence Nightingale:</h3>
+<p>Since Florence, we have had a more diverse statisticians coming from
+University. And we need everybody on board to solve worldly problems the
+way Florance has. We need Ronald, John, Bruno Carlo, David and…
+more.</p>
+<p>So when you go to your sessions and quote positively of your
+experience of the useR conference, please …</p>
+</div>
+<div id="slide-quote-inclusively" class="section level3">
+<h3>Slide : Quote Inclusively</h3>
+<p>Quote her, Quote they, Quote them as well.</p>
+</div>
+<div id="slide-learn-something-new" class="section level2">
+<h2>Slide : Learn something “new”</h2>
+<p>My wish for you to create long lasting collaborations and
+opportunities to learn something new</p>
+<p>Medicine and nursing has learned so much from the aviation industry
+on how to behave in an emergency situation where time is life. Aviation
+taught medicine and nursing How to communicate in a completely
+unambiguous way so that every effort of the HCW is centered to making
+sure the patient has the best outcome.</p>
+<p>This is a paper written about the innovation when Medicine went to an
+Aviation conference session. I think you know what I mean. So learn
+something new, and maybe your long lasting collabortion will change the
+world for the better.</p>
+<p>Please refer to this paper which illuminates this example, also
+written by a nurse.</p>
+<div id="slide-people-are-more-than-1-thing" class="section level3">
+<h3>Slide : People are more than 1 thing</h3>
+<p>With long lasting collaborations and time we see that people are more
+than 1 thing. When we want everybody on board, we have to keep this in
+mind. I continue to borrow from the Arts This is a quote from a nigerian
+author, Chimamanda:</p>
+<p>“The single story creates stereotypes, and the problem with
+stereotypes is not that they are untrue, but that they are incomplete.
+They make one story become the only story.”</p>
+<p>So please, be like Florence Nightingal, be like Chimanda, know that
+people can be more than 1 thing.</p>
+</div>
+</div>
+<div id="slide-assume-you-have-diﬀerent-realities-from-others"
+class="section level2">
+<h2>Slide : Assume you have diﬀerent realities from others</h2>
+<p>I’d like to bring the previous point home, on how to keep safe spaces
+for everybody.</p>
+<p>I quote Chimamanda again ;: “I did not think of myself as black and I
+only became black when I came to America.”</p>
+<p>I can relate this this.</p>
+<p>As an Asian woman in growing up in Australia and in Europe, I don’t
+see what a “big deal” it is to look the way i do, to others. It can feel
+undignifying, dehumanizing and exhausting, to navigate the body I own in
+a world that makes me feel that my culture and body is a narrative that
+excludes mine.</p>
+<p>Therefore when I read out to you the definition of diversity, and
+quote about the raintree eavesdropping on the side of a bungalow and
+realising that there were years before it, I am alluding to the history
+and precedence that make surface level differences, more deep and
+deserving of our attention. Slide : Recommended Books</p>
+<p>Here are some books That our DEI community has put together and we
+hope it make for part of the conference’s long term pursuit for
+inclusion. I hope you take part in this force.</p>
+<div id="slide-in-summary" class="section level3">
+<h3>Slide : In summary</h3>
+<ol style="list-style-type: decimal">
+<li>Read the Code of Conduct</li>
+<li>Open yourself up to Missing Information</li>
+<li>Quote inclusively</li>
+<li>Drop by the rainbowR and Allies Lunch</li>
+<li>We make decisions all the time based on incomplete information.
+These decisions can change lives. - Be Curious</li>
+<li>Take the Inclusive Speaker orientation course (Linux
+Foundation)</li>
+</ol>
+<p>After the conference</p>
+<p>And after the conference, I hope that you get to continue the work
+you love you do, and make your work part of a long-term process for
+inclusion because…</p>
+</div>
+<div id="slide-because-great-minds-do-not-think-alike"
+class="section level3">
+<h3>Slide : Because Great minds do not think alike</h3>
+<p>Great minds do not think alike.</p>
+<p>I will conclude with a quote from the Arts. Haruki Murakami in his
+book What I talk about when I talk about running:</p>
+<p>“Sometimes taking the time is a shortcut”</p>
+<p>So thank you for your attention and please take your time.</p>
+<pre><code>                       -- _fin_ Thank you for reading ♥️ --stical Software Engineer. For useR!2024 I am the Diversity Equity and Inclusion (DEI) Committee Lead and on behalf of the sponsors, Linux Foundation and myself, a warm welcome to all of you.</code></pre>
+<p>I am excited about the diversity we have in our R community because …
+Great minds do not think alike, they challenge each other to think
+again. Adam Grant.</p>
+</div>
+<div id="slide-all-are-welcome-here-1" class="section level3">
+<h3>Slide : All are welcome here</h3>
+<p>I want to acknowledge the geographically and linguistically diverse R
+communities that are in this room, and also joining us virtually.</p>
+<p>I want to acknowledge the Neurodiversity in our community as
+well.</p>
+<p>I want to thank the broader DEI community and LF for all the patience
+and hard work in educating me, on how to we make this conference more
+inclusive.</p>
+<p>Our volunteers from various R ladies chapters including Global,
+Salzburg, R Forwards, rainbowR et al who have put their minds together
+to bring this event to all of you.</p>
+</div>
+<div id="slide-events-new-2" class="section level3">
+<h3>Slide : Events NEW</h3>
+<p>And these events are such as….Birds of a Feather lunch, and Inclusive
+Pathways to Life Sciences and Tech panel.</p>
+</div>
+<div id="slide-events-past-1" class="section level3">
+<h3>Slide : Events PAST</h3>
+<p>Thanks to our DEI volunteers, in this conference we have had R Ladies
+Meet up dinner and R Ladies Birds of a Feather Lunch. Yesterday evening,
+we held Inclusive Pathways to Life Sciences and TEch careers. Slide :
+Events NEW</p>
+<p>And today, rainbowR and Allies will have lunch together today.
+Rainbow R is a community that supports, promotes and connects LGBTQ+
+people who code in the R language.</p>
+<p>That’s right. Not just people who make great HEX stickers.</p>
+</div>
+<div id="slide-rule-10-1" class="section level3">
+<h3>Slide : Rule 10</h3>
+<p>Throughout the preparations for this conference we refer to the paper
+by Joo et all 2022 on how to run a more inclusive conference. Our goal
+was to make Rule no. 10, Rule no.1</p>
+<p>We have given our scholarships, created Gender Neutral Bathrooms, and
+community has contributed to a spotify playlist of songs from all around
+the world including indigenous communities. I hope you found something
+that made you feel welcome Slide : Inclusive Speaker Orientation</p>
+<p>The Speakers of this conference have also taken part in making
+everyone feel more included, that is, the inclusive speaker
+orientation.</p>
+<p>I want to read to you the definition of D and I from this course.</p>
+<p>Diversity refers to the vast array of human differences especially
+those that have been HISTORICALLY disadvantaged</p>
+<p>Inclusion refers to systems that ACTIVELY include and support
+individuals regardless of their identities</p>
+<p>I will acknowledge the historical precedence for what makes our world
+so divided in my talk as part of a long term process for inclusion. To
+the attendees, I recommend that you too take this course which is
+available on the LF website. Slide : Who am I You may be asking, who am
+I ? Well, I am just like you. Navigating in this complex world and doing
+my best.</p>
+<p>I am a Clinician, Poet, Statistician and Software Engineer.</p>
+<p>I’ve worked in Healthcare, Finance, Academy and now Pharma.</p>
+<p>And maybe just like you, I cycle, Swim, Boulder, write and perform
+Poetry. Slide : Why are we here ?</p>
+<p>But why are we ALL here ?</p>
+<p>Again I refer to Joo on what a good conference is.</p>
+<p>A good conference experience can make a difference in the
+professional development of the participants and create long-lasting
+collaborations and opportunities (Joo et al, 2022)</p>
+</div>
+<div id="slide-our-vision-at-user2024-1" class="section level3">
+<h3>Slide : Our vision at useR!2024</h3>
+<p>Our vision here at useR!2024 is improve accessibility for the wider
+community such that they can participate and feel safe regardless of
+gender, gender identity, sexual orientation, disability, race,
+ethnicity, age, religion or economic status…</p>
+</div>
+<div id="slide-how-do-we-1" class="section level3">
+<h3>Slide : How do we ?</h3>
+<p>Create long-lasting collaborations and opportunities.</p>
+<p>A safe space and</p>
+<p>Make the conference part of a long-term process for inclusion ?</p>
+<p>I have two suggestions.</p>
+</div>
+<div id="slide-how-do-we-achieve-these-3-goals-1"
+class="section level3">
+<h3>Slide : How do we achieve these 3 goals</h3>
+<p>Code of conduct. Please read the code of conduct. Be kind. Be
+respectful.</p>
+<p>The second I borrow from the arts. Let me share with you a quote from
+a Malaysian novelist for the Booker prize book The Garden of Evening
+Mists..</p>
+<p>“A raintree bent towards a window in one side of the bungalow,
+eavesdropping on the conversations that had taken place inside over
+years.”</p>
+<p>The imagery of this phrase likens to</p>
+<p>Encouraging as people to listen in with care and consider the
+accumulated journeys, iteration of thought and experiences, realities
+and labor that precedes before the present time. We can be curious.</p>
+<p>We can Be kind. Be Respectful. Be curious.</p>
+<p>Before go more into arts lets go into the foundation of Science.
+Statistics. Slide : Statisticians in History</p>
+<p>Great statisticians on google are Calyampudi, Jerzy, David, Carl,
+William, William, Ronald, John, FLORENCE, Bradley, William, Bruno … I
+think you get where we are going with this.</p>
+<p>I want to talk about Florence Nightingale. The German Wikipedia in my
+view has a more inclusive summary of whe FN was. I know bc I studied
+both a M Nursing and a M Statistics.</p>
+<p>FN according to the DE wikipedia, was a British Nurse, Statistician,
+and founder of modern Western Nursing.</p>
+<p>If you didn’t know about her, FN was born about 300 years ago to a
+wealthy and well connected family which is start of her legacy as well.
+Her father took charge of her and her sisters education, allowing for
+them to study modern and ancient languages, music, painting, sewing and
+when FN was 20, at her insistence, her father paid for mathematics
+lessons. As she was well connected and made long EU trips, she had the
+opportunity to observe a German head of nursing and was asked to be a
+superintendent of a nursing home and when the Crimean war broke out, she
+also went in the efforts to nurse injured soldiers.</p>
+<p>FN made headlines for her sharp judgment and call for reform of
+hospitals. Calling out overcrowdedness and lack of air circulation for
+causes and persistence of illness just to name a few.</p>
+<p>If there was twitter and linkedin at that time, FN might have also
+been viral on instagram.</p>
+<p>There are many quotes from FN on nursing but this is one of
+statistics. It says: “Their principle, if logically carried out, is
+simply to throw out all ages and all diseases and then there would be no
+mortality whatever.” FN encourage critical thinking of data integrity,
+completeness of data, and highlighted the risk of bias and its
+inference. These are features of modern statistics.</p>
+</div>
+<div id="slide-on-florence-nightingale-1" class="section level3">
+<h3>Slide : On Florence Nightingale:</h3>
+<p>Since Florence, we have had a more diverse statisticians coming from
+University. And we need everybody on board to solve worldly problems the
+way Florance has. We need Ronald, John, Bruno Carlo, David and…
+more.</p>
+<p>So when you go to your sessions and quote positively of your
+experience of the useR conference, please …</p>
+</div>
+<div id="slide-quote-inclusively-1" class="section level3">
+<h3>Slide : Quote Inclusively</h3>
+<p>Quote her, Quote they, Quote them as well.</p>
+</div>
+</div>
+<div id="slide-learn-something-new-1" class="section level2">
+<h2>Slide : Learn something “new”</h2>
+<p>My wish for you to create long lasting collaborations and
+opportunities to learn something new</p>
+<p>Medicine and nursing has learned so much from the aviation industry
+on how to behave in an emergency situation where time is life. Aviation
+taught medicine and nursing How to communicate in a completely
+unambiguous way so that every effort of the HCW is centered to making
+sure the patient has the best outcome.</p>
+<p>This is a paper written about the innovation when Medicine went to an
+Aviation conference session. I think you know what I mean. So learn
+something new, and maybe your long lasting collabortion will change the
+world for the better.</p>
+<p>Please refer to this paper which illuminates this example, also
+written by a nurse.</p>
+<div id="slide-people-are-more-than-1-thing-1" class="section level3">
+<h3>Slide : People are more than 1 thing</h3>
+<p>With long lasting collaborations and time we see that people are more
+than 1 thing. When we want everybody on board, we have to keep this in
+mind. I continue to borrow from the Arts This is a quote from a nigerian
+author, Chimamanda:</p>
+<p>“The single story creates stereotypes, and the problem with
+stereotypes is not that they are untrue, but that they are incomplete.
+They make one story become the only story.”</p>
+<p>So please, be like Florence Nightingal, be like Chimanda, know that
+people can be more than 1 thing.</p>
+</div>
+</div>
+<div id="slide-assume-you-have-diﬀerent-realities-from-others-1"
+class="section level2">
+<h2>Slide : Assume you have diﬀerent realities from others</h2>
+<p>I’d like to bring the previous point home, on how to keep safe spaces
+for everybody.</p>
+<p>I quote Chimamanda again ;: “I did not think of myself as black and I
+only became black when I came to America.”</p>
+<p>I can relate this this.</p>
+<p>As an Asian woman in growing up in Australia and in Europe, I don’t
+see what a “big deal” it is to look the way i do, to others. It can feel
+undignifying, dehumanizing and exhausting, to navigate the body I own in
+a world that makes me feel that my culture and body is a narrative that
+excludes mine.</p>
+<p>Therefore when I read out to you the definition of diversity, and
+quote about the raintree eavesdropping on the side of a bungalow and
+realising that there were years before it, I am alluding to the history
+and precedence that make surface level differences, more deep and
+deserving of our attention. Slide : Recommended Books</p>
+<p>Here are some books That our DEI community has put together and we
+hope it make for part of the conference’s long term pursuit for
+inclusion. I hope you take part in this force.</p>
+<div id="slide-in-summary-1" class="section level3">
+<h3>Slide : In summary</h3>
+<ol style="list-style-type: decimal">
+<li>Read the Code of Conduct</li>
+<li>Open yourself up to Missing Information</li>
+<li>Quote inclusively</li>
+<li>Drop by the rainbowR and Allies Lunch</li>
+<li>We make decisions all the time based on incomplete information.
+These decisions can change lives. - Be Curious</li>
+<li>Take the Inclusive Speaker orientation course (Linux
+Foundation)</li>
+</ol>
+<p>After the conference</p>
+<p>And after the conference, I hope that you get to continue the work
+you love you do, and make your work part of a long-term process for
+inclusion because…</p>
+</div>
+<div id="slide-because-great-minds-do-not-think-alike-1"
+class="section level3">
+<h3>Slide : Because Great minds do not think alike</h3>
+<p>Great minds do not think alike.</p>
+<p>I will conclude with a quote from the Arts. Haruki Murakami in his
+book What I talk about when I talk about running:</p>
+<p>“Sometimes taking the time is a shortcut”</p>
+<p>So thank you for your attention and please take your time.</p>
+<pre><code>                           -- _fin_ Thank you for reading ♥️ --</code></pre>
+<p>Peruse our DEI booklist :</p>
+<ol style="list-style-type: decimal">
+<li>African/Black/Asian : Resmaa Menakem My grandmother’s hands
+2017</li>
+<li>Deaf : Nora Ellen Groce Everyone here spoke sign language 1985</li>
+<li>General : Judith Heumann Being Heumann 2020</li>
+<li>Deaf/blind : Haben Girma Haben: The Deafblind Woman Who Conquered
+Harvard Law 2019</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

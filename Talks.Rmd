@@ -37,11 +37,6 @@ Script by slide:
 ### Slide : (Title slide)
 Art is the engine for change.
 
-Good morning. My name is Audrey Yeo and I’ve travelled from Switzerland to be here. I am a Statistician and StatiScript by slide:
-
-### Slide : (Title slide)
-Art is the engine for change.
-
 Good morning. My name is Audrey Yeo and I’ve travelled from Switzerland to be here. I am a Statistician and Statistical Software Engineer. For useR!2024 I am the Diversity Equity and Inclusion (DEI) Committee Lead and on behalf of the sponsors, Linux Foundation and myself, a warm welcome to all of you.
 
 I am excited about the diversity we have in our R community because … Great minds do not think alike, they challenge each other to think again. Adam Grant.
@@ -72,7 +67,7 @@ Throughout the preparations for this conference we refer to the paper by Joo et 
 
 We have given our scholarships, created Gender Neutral Bathrooms, and community has contributed to a spotify playlist of songs from all around the world including indigenous communities. I hope you found something that made you feel welcome
 
-### ßSlide : Inclusive Speaker Orientation
+### Slide : Inclusive Speaker Orientation
 
 The Speakers of this conference have also taken part in making everyone feel more included, that is, the inclusive speaker orientation.
 

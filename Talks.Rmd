@@ -38,6 +38,7 @@ Script by slide:
 Art is the engine for change.
 
 Good morning. My name is Audrey Yeo and I’ve travelled from Switzerland to be here. I am a Statistician and StatiScript by slide:
+
 ### Slide : (Title slide)
 Art is the engine for change.
 
@@ -55,10 +56,6 @@ I want to thank the broader DEI community and LF for all the patience and hard w
 
 Our volunteers from various R ladies chapters including Global, Salzburg, R Forwards, rainbowR et al who have put their minds together to bring this event to all of you.
 
-### Slide : Events NEW
-
-And these events are such as….Birds of a Feather lunch, and Inclusive Pathways to Life Sciences and Tech panel.
-
 ### Slide : Events PAST
 
 Thanks to our DEI volunteers, in this conference we have had R Ladies Meet up dinner and R Ladies Birds of a Feather Lunch. Yesterday evening, we held Inclusive Pathways to Life Sciences and TEch careers.
@@ -67,14 +64,15 @@ Thanks to our DEI volunteers, in this conference we have had R Ladies Meet up di
 
 And today, rainbowR and Allies will have lunch together today. Rainbow R is a community that supports, promotes and connects LGBTQ+ people who code in the R language.
 
-That’s right. Not just people who make great HEX stickers.
+That’s right. They're Nnot just people who make great HEX stickers.
 
 ### Slide : Rule 10
 
 Throughout the preparations for this conference we refer to the paper by Joo et all 2022 on how to run a more inclusive conference. Our goal was to make Rule no. 10, Rule no.1
 
 We have given our scholarships, created Gender Neutral Bathrooms, and community has contributed to a spotify playlist of songs from all around the world including indigenous communities. I hope you found something that made you feel welcome
-Slide : Inclusive Speaker Orientation
+
+### ßSlide : Inclusive Speaker Orientation
 
 The Speakers of this conference have also taken part in making everyone feel more included, that is, the inclusive speaker orientation.
 
@@ -85,7 +83,6 @@ have been HISTORICALLY disadvantaged
 
 Inclusion refers to systems that ACTIVELY include and support individuals
 regardless of their identities
-
 
 I will acknowledge the historical precedence for what makes our world so divided in my talk as part of a long term process for inclusion. To the attendees, I recommend that you too take this course which is available on the LF website.
 
@@ -99,6 +96,7 @@ I’ve worked in Healthcare, Finance, Academy and now Pharma.
 And maybe just like you, I cycle, Swim, Boulder, write and perform Poetry.
 Slide : Why are we here ?
 
+### Slide : why are we ALL here 
 But why are we ALL here ?
 
 Again I refer to Joo on what a good conference is.
@@ -119,7 +117,6 @@ disability, race, ethnicity, age, religion
 or economic status...
 
 ### Slide : How do we ?
-
 Create long-lasting collaborations and opportunities.
 
 A safe space and

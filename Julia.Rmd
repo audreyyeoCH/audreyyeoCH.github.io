@@ -4,23 +4,13 @@ author: Audrey Yeo
 output: 
   html_document:
     toc_float : true
-date: "`r Sys.Date()`"
 ---
+<img src="images_lifesite/lagos3.jpeg" style="width:100%">
+Pictured : Lago Maggio, Locarno (2025)
 
-### A March 2024 update since early beginnings of Learning Julia
-
-Just about a week ago, I taught colleagues in my organisation (Roche, Basel Headquarters) "DataFrames, Strings and Plots". With the necessity of teaching, the learning did indeed transmit. We covered `types` in Julia such as `Dict`, `Pairs`, `Arrays` and reviewed the purpose of `.toml` files as an ambition that our students will eventually collaborate with the Julia programming language. 
-Conscience that the recycled example of the `DataFrames` package was a eurocentric one (the DataFrame "German" was a universal one from this package `DataFrame.jl`) I created a `DataFrame` type of the ten countries belonging to South East Area, and those who participated in the SEA Games (South Eastern Games) and those who aren't as an example of a binary variable. Furthermore, I added another binary variable of `Indigenous` to represent whether or not that country had Indigenous population. Most did and hopefully made the lesson more diverse and interesting for a European-resident audience. This data frame was purposely erroneous in that it had Switzerland which does not belong to South East Asia so as a deliberate exercise, we manipulated this data frame to correct this error. All proved to be planted seeds for a more diversity inclusive instruction.
-
-I continue to learn from my co-instructors for this in-house course lasting till June 2024 this year where we will continue to cover more statistics related material. A grass-roots effort I am so happy to be part of.
-
-### Early beginnings
+### Early beginnings (November 2024)
 
 Two weeks ago, I stumbled across `Julia` the language from a simple google search on making `R` faster. I had a goal initially to start my C++ courses, due to a Triumphant year that was 2023, I did not get to it, until I discovered some extra headspace where the language `Julia` took a priority due to its intuitive syntax, ease and promise of faster performance. My criteria for picking teachers is not so stringent, and with Julia for Nervous beginners, the criterion of a welcoming intent was met with the instructor.
-
-<img src="images_lifesite/lutryview.jpg" style="width:100%">
-
-Pictured : Lac Leman, Canton de Vaud (2023)
 
 ### A course at Julia Academy : Julia for Nervous Beginners, Week 1-2
 
@@ -45,6 +35,14 @@ Further to that, only files in the VS code workspace would be executed and not j
 I discovered some more courses in coursera, such as [Scientific Computing With Julia](https://www.coursera.org/learn/julia-programming), however the current focus of mine differs to its learning objectives. There aren't many statistical use cases which is precisely the direction of my Julia learning. Thus I hesitated from starting another course, albeit be run by the same, kind teacher.
 
 The next steps include re-running the [Turing code](https://turinglang.org/stable/tutorials/00-introduction/) on my `.jl` files as an exercise to familliarise myself with the VS Code app, and eventually linking it to my github account. I have yet to discover the Weave feature of the Julia extension, no internet source has explained why I haven't discovered my Julia markdown file format, even if I forcefully save `.txt` files as `.jmd` . I found importing packages within Julia a bit slow, and within R a bit faster. At the end of the course, Henri Laurie spoke about future outlooks of Julia, and how with just the knowledge of this course, one can run an MCMC experiment. More than, other IDEs were introduced such as [Juno](junolab.org) and [IJulia](https://julialang.github.io/IJulia.jl/stable/manual/running/) Those will be my next steps to understand a comfortable setting to write and run Julia. There are undiscovered potentials as a statistical software engineer within Julia, and I can't wait to integratively understand the said benefits of this language such as its type system and multiple dispatches. The learning is long-term and seemingly compoundable when reflecting between programming languages. Future experiences will nourish these planted seeds.
+
+### A March 2024 update since early beginnings of Learning Julia
+
+Just about a week ago, I taught colleagues in my organisation (Roche, Basel Headquarters) "DataFrames, Strings and Plots". With the necessity of teaching, the learning did indeed transmit. We covered `types` in Julia such as `Dict`, `Pairs`, `Arrays` and reviewed the purpose of `.toml` files as an ambition that our students will eventually collaborate with the Julia programming language. 
+Conscience that the recycled example of the `DataFrames` package was a eurocentric one (the DataFrame "German" was a universal one from this package `DataFrame.jl`) I created a `DataFrame` type of the ten countries belonging to South East Area, and those who participated in the SEA Games (South Eastern Games) and those who aren't as an example of a binary variable. Furthermore, I added another binary variable of `Indigenous` to represent whether or not that country had Indigenous population. Most did and hopefully made the lesson more diverse and interesting for a European-resident audience. This data frame was purposely erroneous in that it had Switzerland which does not belong to South East Asia so as a deliberate exercise, we manipulated this data frame to correct this error. All proved to be planted seeds for a more diversity inclusive instruction.
+
+I continue to learn from my co-instructors for this in-house course lasting till June 2024 this year where we will continue to cover more statistics related material. A grass-roots effort I am so happy to be part of.
+
 
 *References*
 

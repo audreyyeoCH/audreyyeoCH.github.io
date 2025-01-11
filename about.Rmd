@@ -13,13 +13,18 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 
 ------------------------------------------------------------------------
 
-### some labels
+### pronouns and titles
 
--   Software Engineer / Computational Statistician
+- She/Her 
+- EN: Ms/Mrs DE: Frau FR: Madame
+
+### some labels
 
 -   Biostatistician
 
--   Poet, Fine Artist*
+-   Software Engineer / Computational Statistician
+
+-   Poet, Writer and Fine Artist*
 
 (*Creative work displayed applies under [Swiss Federal Act on Copyright and Related Rights](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/en))
 
@@ -90,14 +95,24 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 -   French
 -   German
 -   Mandarin
--   Italian
 
-### current coffee table readings :
+### currently, I am reading around these books :
 
--   Tahar Ben Jelloun's *Le miel et l'amertume* (FR)
--   Annie Ernaux's *Mémoire de fille* (FR)
--   Resmaa Menakam's *My Grandmother's Hands* (EN)
+-   Garden of Evening Mists, *Tan Twan Eng* (EN)
+-   L'étranger, *Albert Camus* (FR)
+<!-- -   Annie Ernaux's *Mémoire de fille* (FR) -->
+<!-- -   Resmaa Menakam's *My Grandmother's Hands* (EN) -->
 -   Rupi Kaur's *Homebody* (EN)
+
+### poetry performances :
+
+- currently performing in and around Munich, Berlin, Basel and Innsbruck
+
+### 2025 conferences and presentations :
+
+-   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Good Software Engineering Practices*, March 2025
+-   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Practical Bayesian Statistics : A gentle refresher on probability theory, Bayesian Framework and Intuition for effective application in Biostatistics.*, March 2025
+-   [ISCB: 46th Annual Conference of the International Society for Clinical Biostatistics](https://iscb2025.info/), Basel, Switzerland
 
 ### 2024 conferences and presentations :
 
@@ -106,13 +121,6 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 -   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *Statistical Software Engineering : A Statistican's Technical journey in R.*, July 2024 [link coming soon]
 - [useR!2024 conference Keynote Address 10 July 2024 : "a(R)t is the Engine for Change"](https://events.linuxfoundation.org/user/program/schedule/) [link coming soon]
 - [PHUSE 2024](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=40702&eventID=64&traceRedir=2), Basel, Switzerland : *Gearing our industry Statisticians up for Software success : A phase1b journey.* September 2024 [abstract here](https://github.com/audreyyeoCH/presentations2024/) [link coming soon]
-
-### 2023 conferences :
-
--   useR!2023 conference, Basel, Switzerland
--   CEN 2023 conference, Basel, Switzerland
--   R/Pharma 2023, world
--   Basel Epidemiology Seminar, Basel, Switzerland
 
 ### some videos I was in
 

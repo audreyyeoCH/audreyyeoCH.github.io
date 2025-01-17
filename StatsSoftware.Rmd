@@ -17,6 +17,120 @@ statistical software engineering_
 Pictured : Alma Mater, University of Zürich, (2023)
 \
 
+---------------------------------
+
+````
+Fake  holidays (excerpt)
+
+
+- Last performed Dec 26, Berlin
+
+I love the slowest days of the year
+
+The ones between real holidays 
+
+Are real holidays
+
+Magnifying my nothingness into lightness
+
+The slowest of the days of the year
+
+Are the kindest ...
+
+````
+
+---------------------------------
+
+## Notes on columns and row binding and matrix multiplication
+
+Let's attempt to get the solution from below
+
+```{r}
+knitr::include_graphics("images_lifesite/dotproduct.svg")
+```
+
+
+Pictured : Example of dot product from [Toppr](https://images.app.goo.gl/e8HYWYv5YPY67tqk7)
+
+```{r}
+first_matrix = matrix(c(1, 4, 2, 5, 3, 6), nrow = 2, ncol = 3)
+
+second_matrix = matrix(c(7, 9, 11, 8, 10, 12), nrow = 3, ncol = 2)
+```
+```{r}
+is_first0 = rbind(c(1, 2, 3), c(4, 5, 6)) # this is how you recreate a matrix
+is_first1 = rbind(1, 2, 3, c(4, 5, 6))
+
+print(is_first0)
+
+print(is_first1)
+
+identical(is_first0, first_matrix) # TRUE
+identical(is_first1, first_matrix) # FALSE
+
+```
+
+```{r}
+is_second = cbind(c(7, 9, 11), c(8, 10, 12))
+identical(second_matrix, is_second)  # TRUE
+
+```
+
+
+The first matrix looks like:
+```{r}
+print(first_matrix)
+```
+
+The second matrix looks like:
+```{r}
+print(second_matrix)
+```
+ 
+When we try to do `first_matrix * second_matrix` gives `Error in first_matrix * second_matrix : non-conformable arrays`. It is correct indeed to multiply two matrices that have the same column of first_matrix, to the same row of second_matrix. In this case the dimensions are `3 x 2 multiplied by 2 x 3` The resulting matrix should be the row of first_matrix and the column of the second, therefore `2 x 2`.
+
+The correct way to do it in `R` is:
+
+
+```{r}
+first_matrix %*% second_matrix
+```
+
+## Notes on choosing colours in R
+
+```{r}
+colorBlindGrey8   <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
+                       "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+scales::show_col(colorBlindGrey8)
+
+
+
+# show colours
+scales::show_col(rainbow(50))
+
+# show HEX code
+rainbow(22)
+
+# how to View colours
+vir <- hcl.colors(10, palette = "Pastel 1", alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir <- hcl.colors(10, palette = "Cold", alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir <- hcl.colors(10, palette = "ag_GrnYl", alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir <- hcl.colors(10, palette = "Oslo", alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir <- hcl.colors(10, palette = "BurgYl", alpha = NULL, rev = FALSE, fixup = TRUE)
+
+# show colours
+scales::show_col(vir)
+
+# show HEX code
+vir
+
+
+
+```
 
 
 ## What am I currently working on ?

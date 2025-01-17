@@ -8,6 +8,13 @@ date:
 library(knitr)
 ```
 
+## 2025 Talks (New!)
+
+-   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Good Software Engineering Practices in R*, March 2025
+-   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Practical Bayesian Statistics : A gentle refresher on probability theory, Bayesian Framework and Intuition for effective application in Biostatistics.*, March 2025
+
+
+## 2024 Talks
 
 -   [PSI 2024](https://www.psiweb.org/conferences/about-the-conference), Amsterdam, Netherlands, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, June 2024, [slides and code for slides here](https://github.com/audreyyeoCH/presentations2024/blob/main/index2.qmd)
 -   [useR!2024 conference](https://events.linuxfoundation.org/user/program/schedule/), Salzburg, Austria, *A Bayesian approach to decision making in early development clinical trials : An R solution.*, July 2024 [slides and code for slides here](https://github.com/audreyyeoCH/presentations2024/tree/main/useR2024_Talks/phase1b_Bayesian_approach_decision_making)

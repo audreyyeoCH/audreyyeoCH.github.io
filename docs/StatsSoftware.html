@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2025-01-11" />
+<meta name="date" content="2025-01-17" />
 
 <title>Statistical Software</title>
 
@@ -274,7 +274,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Statistical Software</h1>
-<h4 class="date">2025-01-11</h4>
+<h4 class="date">2025-01-17</h4>
 
 </div>
 
@@ -285,6 +285,114 @@ enriched my knowledge of statistical software engineering</em></p>
 <p><br />
 Pictured : Alma Mater, University of Zürich, (2023)<br />
 </p>
+<hr />
+<pre><code>Fake  holidays (excerpt)
+
+
+- Last performed Dec 26, Berlin
+
+I love the slowest days of the year
+
+The ones between real holidays 
+
+Are real holidays
+
+Magnifying my nothingness into lightness
+
+The slowest of the days of the year
+
+Are the kindest ...
+</code></pre>
+<hr />
+<div id="notes-on-columns-and-row-binding-and-matrix-multiplication"
+class="section level2">
+<h2>Notes on columns and row binding and matrix multiplication</h2>
+<p>Let’s attempt to get the solution from below</p>
+<pre class="r"><code>knitr::include_graphics(&quot;images_lifesite/dotproduct.svg&quot;)</code></pre>
+<p><img src="images_lifesite/dotproduct.svg" /><!-- --></p>
+<p>Pictured : Example of dot product from <a
+href="https://images.app.goo.gl/e8HYWYv5YPY67tqk7">Toppr</a></p>
+<pre class="r"><code>first_matrix = matrix(c(1, 4, 2, 5, 3, 6), nrow = 2, ncol = 3)
+
+second_matrix = matrix(c(7, 9, 11, 8, 10, 12), nrow = 3, ncol = 2)</code></pre>
+<pre class="r"><code>is_first0 = rbind(c(1, 2, 3), c(4, 5, 6)) # this is how you recreate a matrix
+is_first1 = rbind(1, 2, 3, c(4, 5, 6))
+
+print(is_first0)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    2    3
+## [2,]    4    5    6</code></pre>
+<pre class="r"><code>print(is_first1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    1    1
+## [2,]    2    2    2
+## [3,]    3    3    3
+## [4,]    4    5    6</code></pre>
+<pre class="r"><code>identical(is_first0, first_matrix) # TRUE</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>identical(is_first1, first_matrix) # FALSE</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is_second = cbind(c(7, 9, 11), c(8, 10, 12))
+identical(second_matrix, is_second)  # TRUE</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>The first matrix looks like:</p>
+<pre class="r"><code>print(first_matrix)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    2    3
+## [2,]    4    5    6</code></pre>
+<p>The second matrix looks like:</p>
+<pre class="r"><code>print(second_matrix)</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    7    8
+## [2,]    9   10
+## [3,]   11   12</code></pre>
+<p>When we try to do <code>first_matrix * second_matrix</code> gives
+<code>Error in first_matrix * second_matrix : non-conformable arrays</code>.
+It is correct indeed to multiply two matrices that have the same column
+of first_matrix, to the same row of second_matrix. In this case the
+dimensions are <code>3 x 2 multiplied by 2 x 3</code> The resulting
+matrix should be the row of first_matrix and the column of the second,
+therefore <code>2 x 2</code>.</p>
+<p>The correct way to do it in <code>R</code> is:</p>
+<pre class="r"><code>first_matrix %*% second_matrix</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]   58   64
+## [2,]  139  154</code></pre>
+</div>
+<div id="notes-on-choosing-colours-in-r" class="section level2">
+<h2>Notes on choosing colours in R</h2>
+<pre class="r"><code>colorBlindGrey8   &lt;- c(&quot;#999999&quot;, &quot;#E69F00&quot;, &quot;#56B4E9&quot;, &quot;#009E73&quot;,
+                       &quot;#F0E442&quot;, &quot;#0072B2&quot;, &quot;#D55E00&quot;, &quot;#CC79A7&quot;)
+scales::show_col(colorBlindGrey8)</code></pre>
+<p><img src="StatsSoftware_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<pre class="r"><code># show colours
+scales::show_col(rainbow(50))</code></pre>
+<p><img src="StatsSoftware_files/figure-html/unnamed-chunk-8-2.png" width="672" /></p>
+<pre class="r"><code># show HEX code
+rainbow(22)</code></pre>
+<pre><code>##  [1] &quot;#FF0000&quot; &quot;#FF4600&quot; &quot;#FF8B00&quot; &quot;#FFD100&quot; &quot;#E8FF00&quot; &quot;#A2FF00&quot; &quot;#5DFF00&quot;
+##  [8] &quot;#17FF00&quot; &quot;#00FF2E&quot; &quot;#00FF74&quot; &quot;#00FFB9&quot; &quot;#00FFFF&quot; &quot;#00B9FF&quot; &quot;#0074FF&quot;
+## [15] &quot;#002EFF&quot; &quot;#1700FF&quot; &quot;#5D00FF&quot; &quot;#A200FF&quot; &quot;#E800FF&quot; &quot;#FF00D1&quot; &quot;#FF008B&quot;
+## [22] &quot;#FF0046&quot;</code></pre>
+<pre class="r"><code># how to View colours
+vir &lt;- hcl.colors(10, palette = &quot;Pastel 1&quot;, alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir &lt;- hcl.colors(10, palette = &quot;Cold&quot;, alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir &lt;- hcl.colors(10, palette = &quot;ag_GrnYl&quot;, alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir &lt;- hcl.colors(10, palette = &quot;Oslo&quot;, alpha = NULL, rev = FALSE, fixup = TRUE)
+
+vir &lt;- hcl.colors(10, palette = &quot;BurgYl&quot;, alpha = NULL, rev = FALSE, fixup = TRUE)
+
+# show colours
+scales::show_col(vir)</code></pre>
+<p><img src="StatsSoftware_files/figure-html/unnamed-chunk-8-3.png" width="672" /></p>
+<pre class="r"><code># show HEX code
+vir</code></pre>
+<pre><code>##  [1] &quot;#772C4B&quot; &quot;#8C3B53&quot; &quot;#A14B59&quot; &quot;#B75C5D&quot; &quot;#CC6D5E&quot; &quot;#DE815F&quot; &quot;#E7996E&quot;
+##  [8] &quot;#EEB083&quot; &quot;#F5C79C&quot; &quot;#F8DFC1&quot;</code></pre>
+</div>
 <div id="what-am-i-currently-working-on" class="section level2">
 <h2>What am I currently working on ?</h2>
 <p>I am working on an early drug development software for study

@@ -13,10 +13,30 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 
 ------------------------------------------------------------------------
 
-### pronouns and titles
+````
+The Gifting Spree
+
+- Berlin
+
+A swing from very open
+
+To very closed
+
+From two sides of the Röstigraben
+
+To the inner parts of Home
+
+A Gifting Spree
+
+Lies the slice of a missing
+
+Generosity
+````
+------------------------------------------------------------------------
+
+### pronouns
 
 - She/Her 
-- EN: Ms/Mrs DE: Frau FR: Madame
 
 ### some labels
 
@@ -50,6 +70,7 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 ### some interests :
 
 -   Bayesian statistics
+-   Health economic modeling
 -   Statistical Software Engineering with R language
 -   Probability theory
 -   Adaptive design
@@ -73,7 +94,7 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 
 ### programming languages and capabilities :
 
--   Julia, R, BASH/UNIX scripting, Git, MatLab but will do SQL, Python when needed
+-   Julia, R, BASH/UNIX scripting, Git, SQL, Python 
 
 ### R packages and Shiny apps :
 
@@ -96,11 +117,10 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 -   German
 -   Mandarin
 
-### currently, I am reading around these books :
+### currently coffee table readings :
 
 -   Garden of Evening Mists, *Tan Twan Eng* (EN)
-<!-- -   Annie Ernaux's *Mémoire de fille* (FR) -->
-<!-- -   Resmaa Menakam's *My Grandmother's Hands* (EN) -->
+-   Annie Ernaux's *Mémoire de fille* (FR)
 -   Rupi Kaur's *Homebody* (EN)
 
 ### poetry performances :
@@ -109,9 +129,10 @@ Pictured : useR2024! conf, summer 2024, Salzburg, Austria
 
 ### 2025 conferences and presentations :
 
--   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Good Software Engineering Practices*, March 2025
+-   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Good Software Engineering Practices in R*, March 2025
 -   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Practical Bayesian Statistics : A gentle refresher on probability theory, Bayesian Framework and Intuition for effective application in Biostatistics.*, March 2025
 -   [ISCB: 46th Annual Conference of the International Society for Clinical Biostatistics](https://iscb2025.info/), Basel, Switzerland
+-   [RoeS Conference 2025](https://www.roes2025.at/), Graz, Austria
 
 ### 2024 conferences and presentations :
 

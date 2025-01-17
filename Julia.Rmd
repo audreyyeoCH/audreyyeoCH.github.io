@@ -8,7 +8,33 @@ output:
 <img src="images_lifesite/lagos3.jpeg" style="width:100%">
 Pictured : Lago Maggio, Locarno (2025)
 
-### Early beginnings (November 2024)
+---------------------------------
+
+````
+The Dance of Strings (excerpt)
+
+- Innsbruck
+
+Like its structure
+
+Holding a broken soul
+
+While gentle strings
+
+Go curly on the indignant of the young of me
+
+How could a tune 
+
+Be so lovely ...
+
+````
+
+---------------------------------
+
+
+
+
+### Early beginnings (November 2023)
 
 Two weeks ago, I stumbled across `Julia` the language from a simple google search on making `R` faster. I had a goal initially to start my C++ courses, due to a Triumphant year that was 2023, I did not get to it, until I discovered some extra headspace where the language `Julia` took a priority due to its intuitive syntax, ease and promise of faster performance. My criteria for picking teachers is not so stringent, and with Julia for Nervous beginners, the criterion of a welcoming intent was met with the instructor.
 

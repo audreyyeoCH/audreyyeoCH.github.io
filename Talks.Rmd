@@ -7,7 +7,6 @@ date:
 ```{r, echo = FALSE, warning = FALSE}
 library(knitr)
 ```
-
 ## 2025 Talks (New!)
 
 -   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Good Software Engineering Practices in R*, March 2025

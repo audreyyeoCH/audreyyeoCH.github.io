@@ -18,3 +18,5 @@ docs/test_files/
 _site/images_lifesite/.DS_Store
 docs/images_lifesite/.DS_Store
 images_lifesite/.DS_Store
+/.quarto/
+/_site/

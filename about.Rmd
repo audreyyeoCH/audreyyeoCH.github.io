@@ -142,8 +142,10 @@ Generosity
 - [useR!2024 conference Keynote Address 10 July 2024 : "a(R)t is the Engine for Change"](https://events.linuxfoundation.org/user/program/schedule/) [link coming soon]
 - [PHUSE 2024](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=40702&eventID=64&traceRedir=2), Basel, Switzerland : *Gearing our industry Statisticians up for Software success : A phase1b journey.* September 2024 [abstract here](https://github.com/audreyyeoCH/presentations2024/) [link coming soon]
 
-### some videos I was in
+### media and productions :
 
+- [Substack : Classical statisticians aren't wrong to be curious about learning Machine Learning (ML), Feb 2025 ](https://audreyyeoch.substack.com/p/classical-statisticians-arent-wrong?r=58njfy)
+- [The Effective Statistician Podcast on R-Tool for Bayesian Statistics in Early Phase, July 2024 ](https://open.spotify.com/episode/7tbaGn6IKvamDxPWmhoyst?si=6c5c0f3970d64b00)
 - [Spatial Statistics talk during MSc Biostatistics, 2018](https://youtu.be/MBc3C2uc19I)
 - [Firesidechat with R Ladies, 2024](https://www.youtube.com/watch?v=l-pK7e0pfcU)
 - [Firesidechat with R Forwards (Heather Turner) and Abhishek Ulayil, 2024](https://www.youtube.com/watch?v=18-QFbLC2cY)

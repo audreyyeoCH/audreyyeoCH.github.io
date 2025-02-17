@@ -1,13 +1,13 @@
 ---
 title: "Talks"
 output: html_document
-date: 
+date: "`r Sys.Date()`"
 ---
 
 ```{r, echo = FALSE, warning = FALSE}
 library(knitr)
 ```
-## 2025 Talks (New!)
+## 2025 Talks
 
 -   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Good Software Engineering Practices in R*, March 2025
 -   [DAGStat](https://dagstat2025.de/#home), Berlin, Germany, *Practical Bayesian Statistics : A gentle refresher on probability theory, Bayesian Framework and Intuition for effective application in Biostatistics.*, March 2025
@@ -59,13 +59,13 @@ Our volunteers from various R ladies chapters including Global, Salzburg, R Forw
 
 ### Slide : Events PAST
 
-Thanks to our DEI volunteers, in this conference we have had R Ladies Meet up dinner and R Ladies Birds of a Feather Lunch. Yesterday evening, we held Inclusive Pathways to Life Sciences and TEch careers.
+Thanks to our DEI volunteers, in this conference we have had R Ladies Meet up dinner and R Ladies Birds of a Feather Lunch. Yesterday evening, we held Inclusive Pathways to Life Sciences and Tech careers.
 
 ### Slide : Events NEW
 
 And today, rainbowR and Allies will have lunch together today. Rainbow R is a community that supports, promotes and connects LGBTQ+ people who code in the R language.
 
-That’s right. They're Nnot just people who make great HEX stickers.
+That’s right. They're not just people who make great HEX stickers.
 
 ### Slide : Rule 10  Make the conference part of a long-term process for inclusion
 
@@ -192,7 +192,7 @@ the only story.”
 
 So please, be like Florence Nightingal, be like Chimanda, know that people can be more than 1 thing.
 
-## Slide : Assume you have different realities from others
+### Slide : Assume you have different realities from others
 
 I’d like to bring the previous point home, on how to keep safe spaces for everybody.
 

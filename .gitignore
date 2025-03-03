@@ -2,17 +2,9 @@
 .Rproj.user
 .Rhistory
 .RData
-.Ruserdata
-        _site/Julia_practical.html
-        _site/about.html
-        _site/docs/Julia_practical.html
-        _site/footer.html
-        _site/site_libs/header-attrs-2.25/
-        _site/docs/StatsSoftware.html
-        _site/docs/Stats.html
-        _site/docs/Julia.html
 .DS_Store
-_site.
+.Ruserdata
+_site/.
 docs/test.html
 docs/test_files/
 _site/images_lifesite/.DS_Store

@@ -15,8 +15,8 @@ navbar:
       href: Julia.html
     - text: "Statistical Software"
       href: StatsSoftware.html
-    # - text: "Fine Art"
-    #   href: FineArt.html
+    # - text: "BMS"
+    #   href: YEO_BMS_phase1b.html
     - text: "Talks"
       href: Talks.html
 output : 

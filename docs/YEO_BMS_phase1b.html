@@ -407,9 +407,9 @@ tinytex  (0.54  -&gt; 0.55 ) [CRAN]</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 The downloaded binary packages are in
-    /var/folders/36/1t9xtfl51px173qfsbg8tlcc0000gn/T//RtmpyAzzuW/downloaded_packages
+    /var/folders/36/1t9xtfl51px173qfsbg8tlcc0000gn/T//RtmpkGIsh5/downloaded_packages
 ── R CMD build ─────────────────────────────────────────────────────────────────
-* checking for file ‘/private/var/folders/36/1t9xtfl51px173qfsbg8tlcc0000gn/T/RtmpyAzzuW/remotes9ebb7fe8f60/Genentech-phase1b-d1c9bbf/DESCRIPTION’ ... OK
+* checking for file ‘/private/var/folders/36/1t9xtfl51px173qfsbg8tlcc0000gn/T/RtmpkGIsh5/remotesa1d156e841d2/Genentech-phase1b-d1c9bbf/DESCRIPTION’ ... OK
 * preparing ‘phase1b’:
 * checking DESCRIPTION meta-information ... OK
 * checking for LF line-endings in source and make files and shell scripts
@@ -546,8 +546,8 @@ Bristol Myers Squibbs 2025</p>
 <pre><code>- Biostats Lead in Early Oncology Trials
 - Study Statistician for phase I-II, phase III trials
 - Led Roche/Genentech Dose Escalation on new SCE
-- Led the development of R package phase1b
-- Instructor for Julia Course Basel (Data Science, Quarto, ML modules)
+- Led the development of R package **phase1b**
+- Instructor for **Julia** Course Basel (Data Science, Quarto, ML modules)
 - Co-organiser and Presenter many Methodology seminars</code></pre></li>
 <li><p><code>phase1b</code>’s world debut in 2024 :</p>
 <pre><code>- PSI 2024
@@ -568,6 +568,29 @@ Bristol Myers Squibbs 2025</p>
 </div>
 </div>
 </div></div>
+<!-- # Outlook 2025 {.smaller} -->
+<!-- ::: columns -->
+<!-- ::: {.column width="30%"}   -->
+<!-- ```{r} -->
+<!-- #| layout-ncol: 1 -->
+<!-- #| fig-width: 1 -->
+<!-- #| fig-height: 1 -->
+<!-- #| fig-alt: "a nice outdoor day at innsbruck kletterzentrum in November" -->
+<!-- knitr::include_graphics("images/ibk_outdoor.jpeg", error = FALSE) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: {.column width="0%"}   -->
+<!-- ::: -->
+<!-- ::: {.column width="50%"}   -->
+<!-- \ -->
+<!-- - [ ] DAGStat Conference presentation on Bayesian Statistics -->
+<!-- - [ ] ISCB pre-course on Good Software Engineering practices  -->
+<!-- - [x] R/Pharma Summit Board -->
+<!-- - [x] RoES conference submission -->
+<!-- - [ ] CRAN submission for `phase1b` -->
+<!-- - [ ] Improve Bouldering Grade to V6+ -->
+<!-- ::: -->
+<!-- ::: -->
 </section>
 <section id="analysts-are-strategic-partners-in-the-pharma-business" class="slide level2 smaller">
 <h2><strong>Analysts</strong> are Strategic partners in the Pharma business :</h2>
@@ -790,10 +813,10 @@ Bristol Myers Squibbs 2025</p>
 <div>
 
 </div>
-<div class="cell column-page-right quarto-layout-panel" data-layout-ncol="1" data-layout-align="center">
+<div class="cell column-page-right quarto-layout-panel" data-layout-align="center" data-layout-ncol="1">
 <div class="quarto-layout-row">
 <div class="cell-output-display quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div id="fig-post" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" width="960" alt="This graphs side by side show that by increasing number of responders out of 23 reaches our TPP threshold" data-fig-pos="H">
+<div id="fig-post" class="quarto-float quarto-figure quarto-figure-center" data-fig-pos="H" width="960" data-fig-align="center" alt="This graphs side by side show that by increasing number of responders out of 23 reaches our TPP threshold">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-post-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img data-src="YEO_BMS_phase1b_files/figure-revealjs/fig-post-1.png" id="fig-post" class="quarto-figure quarto-figure-center" data-fig-pos="H" alt="This graphs side by side show that by increasing number of responders out of 23 reaches our TPP threshold" width="960">
@@ -897,18 +920,28 @@ Figure&nbsp;1
 <pre><code>[1] 0.5655589</code></pre>
 </div>
 </div>
-<!-- ## Predictive Posterior Probability  -->
-<!-- ### Two contexts this could be useful in : -->
-<!-- 1. We're at interim, we want to know what is our Predictive Posterior Probability is ....  -->
-<!--   - Did we hit the mark for a Success / Failure ? -->
-<!-- 2. We're designing an experiment (A/B Testing), and ask : What does a good result look like ? -->
-<!--   - Design a Success / Failure criteria such that it is relevant to our business (e.g. risk appetite) -->
+</section>
+<section id="predictive-posterior-probability" class="slide level2">
+<h2>Predictive Posterior Probability</h2>
+<h3 id="two-contexts-this-could-be-useful-in">Two contexts this could be useful in :</h3>
+<ol type="1">
+<li>We’re at interim, we want to know what is our Predictive Posterior Probability is ….</li>
+</ol>
+<ul>
+<li>Did we hit the mark for a Success / Failure ?</li>
+</ul>
+<ol start="2" type="1">
+<li>We’re designing an experiment (A/B Testing), and ask : What does a good result look like ?</li>
+</ol>
+<ul>
+<li>Design a Success / Failure criteria such that it is relevant to our business (e.g.&nbsp;risk appetite)</li>
+</ul>
 <!-- ## Context : -->
 <!--       We have 16/23 successes at interim. Potentially 17 patients left to enrol making a total of 40 patients. Technically, 17/17 patients can be responders. If this happens, technically, we can have 33/40 responders. -->
 <!-- 1. Is this interim result a good indicator of success at final ? -->
 <!-- 2. Given these results, what criteria of success at interim show positive signs of success at final ?  -->
 </section>
-<section id="predictive-posterior-probability" class="slide level2">
+<section id="predictive-posterior-probability-1" class="slide level2">
 <h2>Predictive Posterior Probability</h2>
 <p>Predictive Posterior Probability is the Posterior probability of additional responders. </p>
 <pre><code>        (Note : 40 - 23 = 17 remaining patients. Potentially 16 + 17 responders at final = 33)</code></pre>
@@ -1011,13 +1044,14 @@ Figure&nbsp;2: Predictive Posterior CDF for different Efficacy Rules
 
 </div>
 </div>
-<p><br>
-<br>
-</p>
+</section></section>
+<section>
+<section id="r-echo-false-warning-false-fig-width-10-fig.height-5-fig.align-center-fig-alt-showing-a-line-graph-from-enrolment-of-0-to-23-and-40-patients-sim_line" class="title-slide slide level1 center">
+<h1><code>{r, echo = FALSE, warning = FALSE} # #| fig-width: 10 # #| fig.height: 5 # #| fig.align: "center" # #| fig-alt: "Showing a line graph from enrolment of 0 to 23 and 40 patients" # sim_line #</code></h1>
 <ul>
-<li><p>At n = 34, we have some <strong>useful results (we did not have to evaluate 40!)</strong></p></li>
-<li><p>1/3 of results are known at interim, most of these results are in the <strong>Gray Zone</strong></p></li>
-<li><p>~ 1/2 of results are also at the Gray Zone at final</p></li>
+<li>At n = 34, we have some <strong>useful results (we did not have to evaluate 40!)</strong></li>
+<li>1/3 of results are known at interim, most of these results are in the <strong>Gray Zone</strong></li>
+<li>~ 1/2 of results are also at the Gray Zone at final</li>
 </ul>
 </section>
 <section id="expanded-features" class="slide level2 smaller">
@@ -1213,36 +1247,6 @@ Bristol Myers Squibbs</p>
 </ul>
 </section>
 
-<section id="outlook-2025" class="title-slide slide level1 smaller center">
-<h1>Outlook 2025</h1>
-<div class="columns">
-<div class="column" style="width:30%;">
-<div>
-
-</div>
-<div class="cell quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img data-src="images/ibk_outdoor.jpeg" data-fig-pos="H" alt="a nice outdoor day at innsbruck kletterzentrum in November"></p>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:0%;">
-
-</div><div class="column" style="width:50%;">
-<p><br>
-</p>
-<ul class="task-list">
-<li><p><label><input type="checkbox">DAGStat Conference presentation on Bayesian Statistics</label></p></li>
-<li><p><label><input type="checkbox">ISCB pre-course on Good Software Engineering practices</label></p></li>
-<li><p><label><input type="checkbox" checked="">R/Pharma Summit Board</label></p></li>
-<li><p><label><input type="checkbox" checked="">RoES conference submission</label></p></li>
-<li><p><label><input type="checkbox">CRAN submission for <code>phase1b</code></label></p></li>
-<li><p><label><input type="checkbox">Improve Bouldering Grade to V6+</label></p></li>
-</ul>
-</div></div>
-</section>
-
 <section>
 <section id="effect-on-varying-weight-on-different-priors-example-2" class="title-slide slide level1 center">
 <h1>Effect on varying weight on different priors Example 2</h1>
@@ -1252,10 +1256,10 @@ Bristol Myers Squibbs</p>
 <div class="cell column-page-right quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="YEO_BMS_phase1b_files/figure-revealjs/unnamed-chunk-33-1.png" data-fig-pos="H" alt="These two graphs side by side show that by increasing the threshold for an Efficacy or Go decision, the number of responders out of 40 is higher with the higher threshold, ie 35 patients instead of 32 patients of 40" width="960"></p>
+<p><img data-src="YEO_BMS_phase1b_files/figure-revealjs/unnamed-chunk-32-1.png" data-fig-pos="H" alt="These two graphs side by side show that by increasing the threshold for an Efficacy or Go decision, the number of responders out of 40 is higher with the higher threshold, ie 35 patients instead of 32 patients of 40" width="960"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="YEO_BMS_phase1b_files/figure-revealjs/unnamed-chunk-33-2.png" data-fig-pos="H" alt="These two graphs side by side show that by increasing the threshold for an Efficacy or Go decision, the number of responders out of 40 is higher with the higher threshold, ie 35 patients instead of 32 patients of 40" width="960"></p>
+<p><img data-src="YEO_BMS_phase1b_files/figure-revealjs/unnamed-chunk-32-2.png" data-fig-pos="H" alt="These two graphs side by side show that by increasing the threshold for an Efficacy or Go decision, the number of responders out of 40 is higher with the higher threshold, ie 35 patients instead of 32 patients of 40" width="960"></p>
 </div>
 </div>
 </div>
